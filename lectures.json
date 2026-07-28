@@ -170,6 +170,63 @@
       "playlistId": "PLoROMvodv4rNRRGdS0rBbXOUGA0wjdh1X",
       "type": "Lecture",
       "tags": ["AI"]
+    },
+    {
+      "id": "lecture-list-15",
+      "title": "Avoiding Catastrophic Risk From Uncontrolled AI Agency",
+      "provider": "Munich AI Lectures",
+      "instructor": "Yoshua Bengio",
+      "category": ["AI"],
+      "language": "English",
+      "videoId": "l05zysavPpY",
+      "type": "Lecture",
+      "tags": ["AI"]
+    },
+    {
+      "id": "lecture-list-16",
+      "title": "How AI Is Deceiving Us",
+      "provider": "TED",
+      "instructor": "Yoshua Bengio",
+      "category": ["AI"],
+      "language": "English",
+      "videoId": "qe9QSCF-d88",
+      "type": "Lecture",
+      "tags": ["AI"]
+    },
+    {
+      "id": "lecture-list-17",
+      "title": "Can We Get the Scientific Benefits of AI Without the Risk of Autonomous Agents?",
+      "provider": "International Association for Safe & Ethical AI",
+      "instructor": "Yoshua Bengio",
+      "category": ["AI"],
+      "language": "English",
+      "videoId": "JkNyEUne8iA",
+      "type": "Lecture",
+      "tags": ["AI"]
+    },
+    {
+      "id": "lecture-list-18",
+      "title": "Talks by Yann LeCun",
+      "provider": "Various",
+      "instructor": "Yann LeCun",
+      "category": ["AI"],
+      "language": "English",
+      "videoId": "72Xj8k5WQX4",
+      "playlistId": "PL80I41oVxglK--is17UhoHVosOLFEJzKQ",
+      "type": "Lecture",
+      "tags": ["AI"]
+    },
+    {
+      "id": "lecture-list-19",
+      "title": "Deep Learning Course",
+      "provider": "New York University",
+      "instructor": "Yann LeCun",
+      "category": ["AI"],
+      "language": "English",
+      "videoId": "FW5gFiJb-ig",
+      "playlistId": "PL80I41oVxglKcAHllsU0txr3OuTTaWX2v&index=5",
+      "type": "Lecture",
+      "tags": ["AI"]
     }
   ]
 }
