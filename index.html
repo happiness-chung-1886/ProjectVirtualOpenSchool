@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,17 +14,10 @@
 
   <header class="site-header">
     <div class="header-inner">
-      <a class="brand" href="#top" aria-label="Virtual Open School 홈">
+      <a class="brand" href="#top" aria-label="Virtual Open School Home">
         <span class="brand-mark" aria-hidden="true">🎓</span>
         <span>Virtual Open School</span>
       </a>
-
-      <div class="header-actions">
-        <button id="favoritesToggle" class="icon-button" type="button" aria-pressed="false">
-          ♡ <span>Saved Lectures</span>
-        </button>
-        <button id="themeToggle" class="icon-button" type="button" aria-label="Toggle Dark Mode">☾</button>
-      </div>
     </div>
   </header>
 
@@ -64,8 +57,8 @@
         <span class="sr-only">Language</span>
         <select id="languageFilter">
           <option value="all">All Languages</option>
-          <option value="한국어">Korean</option>
-          <option value="영어">English</option>
+          <option value="English">English</option>
+          <option value="Korean">Korean</option>
         </select>
       </label>
 
@@ -135,7 +128,6 @@
       <div class="thumbnail-wrap">
         <img class="lecture-thumbnail" alt="" loading="lazy" />
         <button class="play-button" type="button" aria-label="Play Video">▶</button>
-        <button class="favorite-button" type="button" aria-label="Save Lecture" aria-pressed="false">♡</button>
       </div>
       <div class="card-body">
         <div class="meta-row"></div>
