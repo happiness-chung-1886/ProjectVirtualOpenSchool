@@ -5,25 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Nonprofit curation platform that organizes open lectures from YouTube and official public channels by topic." />
   <meta name="theme-color" content="#8a6bb7" />
-  <title>Project Open Virtual School</title>
+  <title>Virtual Open School</title>
   <link rel="preconnect" href="https://i.ytimg.com" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <a class="skip-link" href="#lectureGrid">강의 목록으로 건너뛰기</a>
+  <a class="skip-link" href="#lectureGrid">Skip to Lecture List</a>
 
   <header class="site-header">
     <div class="header-inner">
-      <a class="brand" href="#top" aria-label="Project Open Virtual School 홈">
-        <span class="brand-mark" aria-hidden="true">✦</span>
-        <span>Project Open Virtual School</span>
+      <a class="brand" href="#top" aria-label="Virtual Open School 홈">
+        <span class="brand-mark" aria-hidden="true">🎓</span>
+        <span>Virtual Open School</span>
       </a>
 
       <div class="header-actions">
         <button id="favoritesToggle" class="icon-button" type="button" aria-pressed="false">
-          ♡ <span>저장한 강의</span>
+          ♡ <span>Saved Lectures</span>
         </button>
-        <button id="themeToggle" class="icon-button" type="button" aria-label="다크 모드 전환">☾</button>
+        <button id="themeToggle" class="icon-button" type="button" aria-label="Toggle Dark Mode">☾</button>
       </div>
     </div>
   </header>
@@ -99,6 +99,109 @@
       <button id="resetButton" class="primary-button" type="button">Reset Filters</button>
     </div>
 
+    <section class="open-platforms" aria-labelledby="openPlatformsTitle">
+  <div class="platforms-heading">
+    <div>
+      <p class="section-kicker">Continue exploring</p>
+      <h2 id="openPlatformsTitle">
+        More doors to<br />
+        open learning
+      </h2>
+    </div>
+
+    <p class="platforms-intro">
+      Explore additional open-learning platforms operated by universities,
+      educational organizations, and public institutions.
+    </p>
+  </div>
+
+  <div class="platform-grid">
+    <a
+      class="platform-card platform-card-featured"
+      href="https://ocw.mit.edu/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div class="platform-icon" aria-hidden="true">MIT</div>
+
+      <div class="platform-card-content">
+        <span class="platform-label">University courses</span>
+        <h3>MIT OpenCourseWare</h3>
+        <p>
+          Free course materials from thousands of MIT undergraduate and
+          graduate courses.
+        </p>
+      </div>
+
+      <span class="platform-arrow" aria-hidden="true">↗</span>
+    </a>
+
+    <a
+      class="platform-card"
+      href="https://oyc.yale.edu/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div class="platform-icon" aria-hidden="true">Y</div>
+
+      <div class="platform-card-content">
+        <span class="platform-label">Recorded lectures</span>
+        <h3>Open Yale Courses</h3>
+        <p>
+          Selected introductory courses taught by Yale University professors.
+        </p>
+      </div>
+
+      <span class="platform-arrow" aria-hidden="true">↗</span>
+    </a>
+
+    <a
+      class="platform-card"
+      href="https://www.edx.org/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div class="platform-icon" aria-hidden="true">edX</div>
+
+      <div class="platform-card-content">
+        <span class="platform-label">Online learning</span>
+        <h3>edX</h3>
+        <p>
+          Online courses and learning programs from universities and
+          institutions worldwide.
+        </p>
+      </div>
+
+      <span class="platform-arrow" aria-hidden="true">↗</span>
+    </a>
+
+    <a
+      class="platform-card"
+      href="https://www.khanacademy.org/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div class="platform-icon" aria-hidden="true">KA</div>
+
+      <div class="platform-card-content">
+        <span class="platform-label">Foundational learning</span>
+        <h3>Khan Academy</h3>
+        <p>
+          Free lessons and practice resources across mathematics, science,
+          computing, and more.
+        </p>
+      </div>
+
+      <span class="platform-arrow" aria-hidden="true">↗</span>
+    </a>
+  </div>
+
+  <p class="external-platform-note">
+    These platforms are independently operated. Project Open Virtual School
+    provides links for educational discovery and is not affiliated with them.
+  </p>
+</section>
+
     <section class="about-section">
       <div>
         <p class="section-kicker">About this archive</p>
@@ -122,13 +225,13 @@
     <div class="modal-header">
       <div>
         <p class="section-kicker">Now watching</p>
-        <h2 id="modalTitle">강의 보기</h2>
+        <h2 id="modalTitle">Watching Lecture</h2>
       </div>
-      <button id="closeModalButton" class="close-button" type="button" aria-label="영상 닫기">×</button>
+      <button id="closeModalButton" class="close-button" type="button" aria-label="Close Video">×</button>
     </div>
     <div id="videoFrame" class="video-frame"></div>
     <div class="modal-footer">
-      <a id="modalSourceLink" class="primary-button" href="#" target="_blank" rel="noopener noreferrer">원본 YouTube에서 보기 ↗</a>
+      <a id="modalSourceLink" class="primary-button" href="#" target="_blank" rel="noopener noreferrer">See Original YouTube Video ↗</a>
     </div>
   </dialog>
 
@@ -136,8 +239,8 @@
     <article class="lecture-card">
       <div class="thumbnail-wrap">
         <img class="lecture-thumbnail" alt="" loading="lazy" />
-        <button class="play-button" type="button" aria-label="영상 재생">▶</button>
-        <button class="favorite-button" type="button" aria-label="강의 저장" aria-pressed="false">♡</button>
+        <button class="play-button" type="button" aria-label="Play Video">▶</button>
+        <button class="favorite-button" type="button" aria-label="Save Lecture" aria-pressed="false">♡</button>
       </div>
       <div class="card-body">
         <div class="meta-row"></div>
@@ -147,7 +250,7 @@
         <div class="tag-row"></div>
         <div class="card-footer">
           <span class="lecture-type"></span>
-          <a class="source-link" target="_blank" rel="noopener noreferrer">원본 보기 ↗</a>
+          <a class="source-link" target="_blank" rel="noopener noreferrer">See Original↗</a>
         </div>
       </div>
     </article>
