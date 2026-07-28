@@ -144,11 +144,11 @@ function renderCategories() {
   if (!elements.categoryTabs) return;
 
   const categories = [
-    "all",
-    ...new Set(
-      state.lectures.map((lecture) => lecture.category)
-    )
-  ];
+  "all",
+  ...new Set(
+    state.lectures.flatMap((lecture) => lecture.category)
+  )
+];
 
   elements.categoryTabs.replaceChildren();
 
@@ -244,19 +244,18 @@ function createLectureCard(lecture) {
     "error",
     () => {
       image.src = createFallbackThumbnail(
-        lecture.category
+        lecture.category[0]
       );
     },
     { once: true }
   );
 
-  [
-    lecture.category,
-    lecture.level,
-    lecture.language
-  ].forEach((value) => {
-    metaRow.append(createPill(value));
+  lecture.category.forEach((category) => {
+  metaRow.append(createPill(category));
   });
+
+  metaRow.append(createPill(lecture.level));
+  metaRow.append(createPill(lecture.language));
 
   title.textContent = lecture.title;
 
@@ -307,7 +306,7 @@ function getVisibleLectures() {
         lecture.title,
         lecture.provider,
         lecture.instructor,
-        lecture.category,
+        lecture.category.join(" "),
         lecture.type,
         ...lecture.tags
       ].join(" "));
@@ -315,7 +314,7 @@ function getVisibleLectures() {
       return (
         (
           state.category === "all" ||
-          lecture.category === state.category
+          lecture.category.includes(state.category)
         ) &&
         (
           state.language === "all" ||
@@ -395,8 +394,8 @@ function updateStatistics() {
 
   elements.categoryCount.textContent =
     new Set(
-      state.lectures.map((item) => item.category)
-    ).size;
+      state.lectures.flatMap((item) => item.category)
+      ).size;
 
   elements.providerCount.textContent =
     new Set(
@@ -425,7 +424,9 @@ function validateLectures(items) {
       title: String(item.title),
       provider: String(item.provider),
       instructor: String(item.instructor || ""),
-      category: String(item.category),
+      category: Array.isArray(item.category)
+        ? item.category.map(String)
+        : [String(item.category)],
       level: String(item.level || "Beginner"),
       language: String(item.language || "English"),
       videoId: String(item.videoId),
