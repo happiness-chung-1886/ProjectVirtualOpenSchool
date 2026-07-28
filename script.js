@@ -396,21 +396,6 @@ function resetFilters() {
   renderAll();
 }
 
-function updateStatistics() {
-  elements.totalCount.textContent =
-    state.lectures.length;
-
-  elements.categoryCount.textContent =
-    new Set(
-      state.lectures.flatMap((item) => item.category)
-      ).size;
-
-  elements.providerCount.textContent =
-    new Set(
-      state.lectures.map((item) => item.provider)
-    ).size;
-}
-
 function validateLectures(items) {
   if (!Array.isArray(items)) {
     throw new TypeError("lectures must be an array.");
