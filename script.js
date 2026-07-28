@@ -200,12 +200,11 @@ function getVisibleLectures() {
 
   const filtered = state.lectures.filter((lecture) => {
     const searchableText = normalizeText([
-      lecture.title,
-      lecture.provider,
-      lecture.instructor,
-      lecture.category,
-      lecture.description,
-      ...lecture.tags
+      lecture.title || "",
+      lecture.provider || "",
+      lecture.instructor || "",
+      lecture.category || "",
+      ...(lecture.tags || [])
     ].join(" "));
 
     return (
@@ -217,10 +216,19 @@ function getVisibleLectures() {
   });
 
   return filtered.sort((a, b) => {
-    if (state.sort === "title") return a.title.localeCompare(b.title, "en");
-    if (state.sort === "provider") return a.provider.localeCompare(b.provider, "en");
+    if (state.sort === "title") {
+      return String(a.title || "").localeCompare(String(b.title || ""), "en");
+    }
+
+    if (state.sort === "provider") {
+      return String(a.provider || "").localeCompare(
+        String(b.provider || ""),
+        "en"
+      );
+    }
+
     if (state.sort === "newest") {
-      return String(b.addedAt).localeCompare(String(a.addedAt));
+      return String(b.addedAt || "").localeCompare(String(a.addedAt || ""));
     }
 
     return Number(b.featured || 0) - Number(a.featured || 0);
