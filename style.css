@@ -265,6 +265,13 @@ h1 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 20px;
 }
+.platform-section{
+    margin:5rem 0;
+    padding:3rem;
+    border-radius:32px;
+    background:#faf8ff;
+    border:1px solid #ece5f7;
+}
 .lecture-card {
   min-width: 0;
   overflow: hidden;
