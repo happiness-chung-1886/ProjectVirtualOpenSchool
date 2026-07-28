@@ -11,7 +11,6 @@ const state = {
 };
 
 const elements = {
-  categoryTabs: document.getElementById("categoryTabs"),
   lectureGrid: document.getElementById("lectureGrid"),
   emptyState: document.getElementById("emptyState"),
   resultSummary: document.getElementById("resultSummary"),
@@ -104,7 +103,6 @@ function renderAll() {
 
 function renderCategories() {
   const categories = ["All", ...new Set(state.lectures.map((lecture) => lecture.category))];
-  elements.categoryTabs.replaceChildren();
 
   categories.forEach((category) => {
     const button = document.createElement("button");
@@ -119,7 +117,6 @@ function renderCategories() {
       renderLectures();
     });
 
-    elements.categoryTabs.append(button);
   });
 }
 
