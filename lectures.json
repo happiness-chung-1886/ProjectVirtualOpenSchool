@@ -272,6 +272,18 @@
       "videoId": "ehxfe2l1RtQ",
       "type": "Lecture",
       "tags": ["AI", "Biomedical Imaging", "Computer Vision", "Medicine", "Multi-Modal"]
+    },
+    {
+      "id": "lecture-list-24",
+      "title": "Reinforcement Learning",
+      "provider": "Korea University",
+      "instructor": "Gyeongsik Moon",
+      "category": ["AI", "Robotics"],
+      "language": "English",
+      "videoId": "LW56buqat5M",
+      "playlistId": "PLW_xDnYtBZJkLD5rXCvLw44ZeSD3BKqFf",
+      "type": "Playlist",
+      "tags": ["AI", "Robotics"]
     }
   ]
 }
