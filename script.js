@@ -330,13 +330,13 @@ function getVisibleLectures() {
         )
       );
     })
-    .sort((a, b) => {
-      return (
-        Number(b.featured || 0) -
-        Number(a.featured || 0)
-      );
-    });
-}
+    .sort((a, b) =>
+      a.title.localeCompare(b.title, "en", {
+        sensitivity: "base",
+        numeric: true
+      })
+    );
+    }
 
 function openVideoModal(lecture) {
   const iframe = document.createElement("iframe");
