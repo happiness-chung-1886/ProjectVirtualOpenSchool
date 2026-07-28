@@ -237,7 +237,7 @@
       "language": "English",
       "videoId": "7SLNpqLj_mk",
       "type": "Lecture",
-      "tags": ["AI"]
+      "tags": ["AI", "Biomedical Imaging", "Computer Vision", "Medicine", "Multi-Modal"]
     },
     {
       "id": "lecture-list-21",
@@ -248,7 +248,8 @@
       "language": "English",
       "videoId": "IA60YAP4UIU",
       "type": "Lecture",
-      "tags": ["AI"]
+      "tags": ["AI", "Biomedical Imaging", "Computer Vision", "Medicine", "Multi-Modal"]
+
     },
     {
       "id": "lecture-list-22",
@@ -259,7 +260,7 @@
       "language": "English",
       "videoId": "9vyL0tYjeP0",
       "type": "Lecture",
-      "tags": ["AI"]
+      "tags": ["AI", "Biomedical Imaging", "Computer Vision", "Medicine", "Multi-Modal"]
     },
     {
       "id": "lecture-list-23",
@@ -270,7 +271,7 @@
       "language": "Korean",
       "videoId": "ehxfe2l1RtQ",
       "type": "Lecture",
-      "tags": ["AI"]
+      "tags": ["AI", "Biomedical Imaging", "Computer Vision", "Medicine", "Multi-Modal"]
     }
   ]
 }
