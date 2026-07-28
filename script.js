@@ -226,9 +226,6 @@ function createLectureCard(lecture) {
   const provider =
     fragment.querySelector(".provider");
 
-  const description =
-    fragment.querySelector(".description");
-
   const tagRow =
     fragment.querySelector(".tag-row");
 
@@ -266,8 +263,6 @@ function createLectureCard(lecture) {
   provider.textContent = lecture.instructor
     ? `${lecture.provider} · ${lecture.instructor}`
     : lecture.provider;
-
-  description.textContent = lecture.description;
 
   lecture.tags.forEach((tag) => {
     const tagElement =
@@ -313,7 +308,6 @@ function getVisibleLectures() {
         lecture.provider,
         lecture.instructor,
         lecture.category,
-        lecture.description,
         lecture.type,
         ...lecture.tags
       ].join(" "));
@@ -434,7 +428,6 @@ function validateLectures(items) {
       category: String(item.category),
       level: String(item.level || "Beginner"),
       language: String(item.language || "English"),
-      description: String(item.description || ""),
       videoId: String(item.videoId),
       playlistId: String(item.playlistId || ""),
       type: String(
