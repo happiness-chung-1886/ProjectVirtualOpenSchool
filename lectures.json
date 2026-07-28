@@ -92,6 +92,28 @@
       "playlistId": "PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r&index=1",
       "type": "Playlist",
       "tags": ["AI","Computer Vision"]
+    },
+    {
+      "id": "lecture-list-8",
+      "title": "Deep Learning for Goal-Oriented Dialogue Systems",
+      "provider": "AI Frontiers",
+      "instructor": "Dilek Hakkani-Tür",
+      "category": ["AI"],
+      "language": "English",
+      "videoId": "Ii3-T5aV8sY",
+      "type": "Lecture",
+      "tags": ["AI","Natural Language Processing"]
+    },
+    {
+      "id": "lecture-list-9",
+      "title": "Alexa & Friends with Dilek Hakkani-Tür",
+      "provider": "Amazone Science",
+      "instructor": "Dilek Hakkani-Tür",
+      "category": ["AI"],
+      "language": "English",
+      "videoId": "V9JZBDVhd3g",
+      "type": "Lecture",
+      "tags": ["AI","Natural Language Processing"]
     }
   ]
 }

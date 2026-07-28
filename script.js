@@ -69,8 +69,6 @@ async function initialize() {
 
     return;
   }
-
-  updateStatistics();
   renderAll();
 }
 
