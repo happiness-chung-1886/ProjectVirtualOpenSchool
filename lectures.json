@@ -114,6 +114,62 @@
       "videoId": "V9JZBDVhd3g",
       "type": "Lecture",
       "tags": ["AI","Natural Language Processing"]
+    },
+    {
+      "id": "lecture-list-10",
+      "title": "Challenges for Conversational AI (Generative AI, Free Speech, & Public Discourse)",
+      "provider": "Knight First Amendment Institute",
+      "instructor": "Dilek Hakkani-Tür",
+      "category": ["AI"],
+      "language": "English",
+      "videoId": "PHDEao8zrWw",
+      "type": "Lecture",
+      "tags": ["AI","Natural Language Processing"]
+    },
+    {
+      "id": "lecture-list-11",
+      "title": "Knowledge Extraction to Accelerate Scientific Discovery",
+      "provider": "Michigan Institute for Data & AI in Society",
+      "instructor": "Heng Ji",
+      "category": ["AI"],
+      "language": "English",
+      "videoId": "wEQz6RU4Wac",
+      "type": "Lecture",
+      "tags": ["AI","Natural Language Processing"]
+    },
+    {
+      "id": "lecture-list-12",
+      "title": "Leveraging Redundancy for Cross-Source Information Extraction, Fusion, and Inference",
+      "provider": "Rutgers School of Communication and Information ",
+      "instructor": "Heng Ji",
+      "category": ["AI"],
+      "language": "English",
+      "videoId": "C5Xgzrsrq1Y",
+      "type": "Lecture",
+      "tags": ["AI","Natural Language Processing"]
+    },
+    {
+      "id": "lecture-list-13",
+      "title": "Low-rescouce Language Information Extraction",
+      "provider": "WeCNLP",
+      "instructor": "Heng Ji",
+      "category": ["AI"],
+      "language": "English",
+      "videoId": "_qpa99XSHak",
+      "type": "Lecture",
+      "tags": ["AI","Natural Language Processing"]
+    },
+    {
+      "id": "lecture-list-14",
+      "title": "Deep Learning",
+      "provider": "Stanford Online",
+      "instructor": "CS230 Team",
+      "category": ["AI"],
+      "language": "English",
+      "videoId": "_NLHFoVNlbg",
+      "playlistId": "PLoROMvodv4rNRRGdS0rBbXOUGA0wjdh1X",
+      "type": "Lecture",
+      "tags": ["AI"]
     }
   ]
 }
