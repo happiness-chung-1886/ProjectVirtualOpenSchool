@@ -227,6 +227,50 @@
       "playlistId": "PL80I41oVxglKcAHllsU0txr3OuTTaWX2v&index=5",
       "type": "Lecture",
       "tags": ["AI"]
+    },
+    {
+      "id": "lecture-list-20",
+      "title": "Geometric Understanding of Supervised and Unsupervised Deep Learning for Biomedical Image Reconstruction",
+      "provider": "Institute for Pure & Applied Mathematics",
+      "instructor": "Jong Chul Ye",
+      "category": ["AI"],
+      "language": "English",
+      "videoId": "7SLNpqLj_mk",
+      "type": "Lecture",
+      "tags": ["AI"]
+    },
+    {
+      "id": "lecture-list-21",
+      "title": "Generative and Self-Supervised Learning Approaches for Inverse Problems",
+      "provider": "INI",
+      "instructor": "Jong Chul Ye",
+      "category": ["AI"],
+      "language": "English",
+      "videoId": "IA60YAP4UIU",
+      "type": "Lecture",
+      "tags": ["AI"]
+    },
+    {
+      "id": "lecture-list-22",
+      "title": "Diffusion Models for Computational Imaging Problems",
+      "provider": "EPFL Center for Imaging",
+      "instructor": "Jong Chul Ye",
+      "category": ["AI"],
+      "language": "English",
+      "videoId": "9vyL0tYjeP0",
+      "type": "Lecture",
+      "tags": ["AI"]
+    },
+    {
+      "id": "lecture-list-23",
+      "title": "The Future of Medical Imaging AI: Evolution and Practical Applications of Vision-Language Models",
+      "provider": "HTRI",
+      "instructor": "Jong Chul Ye",
+      "category": ["AI"],
+      "language": "Korean",
+      "videoId": "ehxfe2l1RtQ",
+      "type": "Lecture",
+      "tags": ["AI"]
     }
   ]
 }
