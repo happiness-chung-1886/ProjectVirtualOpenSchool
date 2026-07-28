@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="유튜브와 공식 공개 채널에 흩어진 오픈 강의를 주제별로 정리한 비영리 큐레이션 사이트" />
+  <meta name="theme-color" content="#8a6bb7" />
+  <title>Open Lecture Hub</title>
+  <link rel="preconnect" href="https://i.ytimg.com" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#lectureGrid">강의 목록으로 건너뛰기</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="Open Lecture Hub 홈">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span>Open Lecture Hub</span>
+      </a>
+
+      <div class="header-actions">
+        <button id="favoritesToggle" class="icon-button" type="button" aria-pressed="false">
+          ♡ <span>저장한 강의</span>
+        </button>
+        <button id="themeToggle" class="icon-button" type="button" aria-label="다크 모드 전환">☾</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top" class="page-shell">
+    <section class="hero" aria-labelledby="heroTitle">
+      <div>
+        <p class="eyebrow">Curated open learning</p>
+        <h1 id="heroTitle">좋은 공개 강의를<br />한곳에서 찾아보세요.</h1>
+        <p class="hero-copy">
+          대학·연구기관·교육자가 공개한 강의를 주제별로 정리한 비영리 큐레이션 페이지입니다.
+          모든 영상은 원본 출처로 연결됩니다.
+        </p>
+      </div>
+
+      <div class="hero-stats" aria-label="강의 통계">
+        <div><strong id="totalCount">0</strong><span>Lectures</span></div>
+        <div><strong id="categoryCount">0</strong><span>Topics</span></div>
+        <div><strong id="providerCount">0</strong><span>Providers</span></div>
+      </div>
+    </section>
+
+    <section class="notice" aria-label="사이트 안내">
+      <span aria-hidden="true">🌱</span>
+      <p>
+        이 사이트는 영상을 재업로드하지 않습니다. 제목·설명·썸네일과 원본 링크를 제공하며,
+        각 강의의 저작권과 이용 조건은 원 제작자에게 있습니다.
+      </p>
+    </section>
+
+    <section class="controls" aria-label="강의 검색과 필터">
+      <label class="search-box">
+        <span class="sr-only">강의 검색</span>
+        <span aria-hidden="true">⌕</span>
+        <input id="searchInput" type="search" placeholder="강의, 학교, 교수자, 키워드 검색" autocomplete="off" />
+      </label>
+
+      <label>
+        <span class="sr-only">난이도</span>
+        <select id="levelFilter">
+          <option value="all">모든 난이도</option>
+          <option value="입문">입문</option>
+          <option value="중급">중급</option>
+          <option value="고급">고급</option>
+        </select>
+      </label>
+
+      <label>
+        <span class="sr-only">언어</span>
+        <select id="languageFilter">
+          <option value="all">모든 언어</option>
+          <option value="한국어">한국어</option>
+          <option value="영어">영어</option>
+          <option value="기타">기타</option>
+        </select>
+      </label>
+
+      <label>
+        <span class="sr-only">정렬</span>
+        <select id="sortFilter">
+          <option value="featured">추천순</option>
+          <option value="title">제목순</option>
+          <option value="provider">기관순</option>
+          <option value="newest">최근 추가순</option>
+        </select>
+      </label>
+    </section>
+
+    <nav id="categoryTabs" class="category-tabs" aria-label="주제별 분류"></nav>
+
+    <section class="content-heading">
+      <div>
+        <p class="section-kicker">Explore lectures</p>
+        <h2 id="sectionTitle">전체 강의</h2>
+      </div>
+      <p id="resultSummary" class="result-summary" aria-live="polite"></p>
+    </section>
+
+    <section id="lectureGrid" class="lecture-grid" aria-live="polite"></section>
+
+    <div id="emptyState" class="empty-state" hidden>
+      <div aria-hidden="true">☁</div>
+      <h3>조건에 맞는 강의가 없어요.</h3>
+      <p>검색어나 필터를 조금 바꿔보세요.</p>
+      <button id="resetButton" class="primary-button" type="button">필터 초기화</button>
+    </div>
+
+    <section class="about-section">
+      <div>
+        <p class="section-kicker">About this archive</p>
+        <h2>배움을 더 쉽게 발견할 수 있도록</h2>
+      </div>
+      <div class="about-copy">
+        <p>
+          공개 강의가 여러 채널과 재생목록에 흩어져 있으면 좋은 자료를 발견하기 어렵습니다.
+          이 페이지는 원본 출처를 존중하면서 분야·난이도·언어별로 탐색하기 쉽게 정리하는 것을 목표로 합니다.
+        </p>
+        <p>
+          강의를 추가할 때는 공식 채널인지 확인하고, 제목·기관·원본 URL·간단한 설명을 정확히 기록해 주세요.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Open Lecture Hub · Non-commercial educational curation</p>
+    <p>Last updated: <span id="lastUpdated">—</span></p>
+  </footer>
+
+  <dialog id="videoModal" class="video-modal">
+    <div class="modal-header">
+      <div>
+        <p class="section-kicker">Now watching</p>
+        <h2 id="modalTitle">강의 보기</h2>
+      </div>
+      <button id="closeModalButton" class="close-button" type="button" aria-label="영상 닫기">×</button>
+    </div>
+    <div id="videoFrame" class="video-frame"></div>
+    <div class="modal-footer">
+      <a id="modalSourceLink" class="primary-button" href="#" target="_blank" rel="noopener noreferrer">원본 YouTube에서 보기 ↗</a>
+    </div>
+  </dialog>
+
+  <template id="lectureCardTemplate">
+    <article class="lecture-card">
+      <div class="thumbnail-wrap">
+        <img class="lecture-thumbnail" alt="" loading="lazy" />
+        <button class="play-button" type="button" aria-label="영상 재생">▶</button>
+        <button class="favorite-button" type="button" aria-label="강의 저장" aria-pressed="false">♡</button>
+      </div>
+      <div class="card-body">
+        <div class="meta-row"></div>
+        <h3 class="lecture-title"></h3>
+        <p class="provider"></p>
+        <p class="description"></p>
+        <div class="tag-row"></div>
+        <div class="card-footer">
+          <span class="lecture-type"></span>
+          <a class="source-link" target="_blank" rel="noopener noreferrer">원본 보기 ↗</a>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
