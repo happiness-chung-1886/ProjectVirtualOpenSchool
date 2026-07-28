@@ -1,4 +1,5 @@
 {
+  "lastUpdated": "2026-07-28",
   "lectures": [
     {
       "id": "lecture-list-0",
@@ -7,10 +8,8 @@
       "instructor": "CS231 Team",
       "category": "AI",
       "language": "English",
-
       "videoId": "2fq9wYslV0A",
       "playlistId": "PLoROMvodv4rOmsNzYBMe0gJY2XS8AQg16",
-
       "type": "Playlist",
       "tags": ["Deep Learning", "Computer Vision"]
     }
