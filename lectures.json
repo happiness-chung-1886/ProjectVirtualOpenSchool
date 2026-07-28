@@ -1,19 +1,18 @@
 {
-  "lastUpdated": "2026-07-28",
   "lectures": [
     {
-      "id": "sample-cs-001",
-      "title": "Introduction to Computer Science",
-      "provider": "Example University",
-      "instructor": "Open Course Team",
-      "category": "Computer Science",
-      "language": "영어",
-      "description": "프로그래밍과 계산적 사고의 핵심 개념을 다루는 공개 강의 예시입니다. 실제 운영 전 공식 강의 정보로 교체해 주세요.",
-      "videoId": "M7lc1UVf-VE",
-      "playlistId": "",
-      "type": "Lecture",
-      "tags": ["Programming", "Foundations"],
-      "addedAt": "2026-07-28"
+      "id": "lecture-list-0",
+      "title": "Deep Learning for Computer Vision (Spring 2025)",
+      "provider": "Stanford Online",
+      "instructor": "CS231 Team",
+      "category": "AI",
+      "language": "English",
+
+      "videoId": "2fq9wYslV0A",
+      "playlistId": "PLoROMvodv4rOmsNzYBMe0gJY2XS8AQg16",
+
+      "type": "Playlist",
+      "tags": ["Deep Learning", "Computer Vision"]
     }
   ]
 }
