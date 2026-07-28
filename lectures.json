@@ -3,7 +3,7 @@
   "lectures": [
     {
       "id": "lecture-list-0",
-      "title": "Deep Learning for Computer Vision (Spring 2025)",
+      "title": "Deep Learning for Computer Vision",
       "provider": "Stanford Online",
       "instructor": "CS231 Team",
       "category": "AI",
@@ -12,6 +12,86 @@
       "playlistId": "PLoROMvodv4rOmsNzYBMe0gJY2XS8AQg16",
       "type": "Playlist",
       "tags": ["Deep Learning", "Computer Vision"]
+    },
+    {
+      "id": "lecture-list-1",
+      "title": "Stanford Robotics Seminar",
+      "provider": "Stanford Online",
+      "instructor": "ENGR319 Team",
+      "category": "Robotics",
+      "language": "English",
+      "videoId": "wfJpKjMwXpg",
+      "playlistId": "PLoROMvodv4rNsMOMF1LG3ohsTqZVJVeVp",
+      "type": "Playlist",
+      "tags": ["Robotics", "Automation"]
+    },
+    {
+      "id": "lecture-list-2",
+      "title": "Artificial Intelligence: Generative AI-Based Enhancement of Human Intelligence",
+      "provider": "Korea Foundation for Science and Creativity",
+      "instructor": "Bohyung Han",
+      "category": "AI",
+      "language": "Korean",
+      "videoId": "vkTMO_vCp6o",
+      "type": "Lecture",
+      "tags": ["AI", "Multi-Modal","Computer Vision"]
+    },
+    {
+      "id": "lecture-list-3",
+      "title": "The Present and Future of Computer Vision and Deep Learning",
+      "provider": "KAOS",
+      "instructor": "Bohyung Han",
+      "category": "AI",
+      "language": "Korean",
+      "videoId": "Tjz5M75Uw5w&t=5561s",
+      "type": "Lecture",
+      "tags": ["AI", "Multi-Modal","Computer Vision"]
+    },
+    {
+      "id": "lecture-list-4",
+      "title": "Symposium on AI and Reconstruction in Biomedical Imaging",
+      "provider": "CCP SyneRBI",
+      "instructor": "AI-RBI 2026",
+      "category": ["AI", "Medicine"],
+      "language": "English",
+      "videoId": "Pqe01ExObKg",
+      "playlistId": "PLH5cPNdVOAvs",
+      "type": "Playlist",
+      "tags": ["AI", "Biomedical Imaging", "Computer Vision", "Medicine", "Multi-Modal"]
+    },
+    {
+      "id": "lecture-list-5",
+      "title": "Generative Diffusion Models for Medical Imaging",
+      "provider": "Stanford MedAI",
+      "instructor": "Hyungjin Chung",
+      "category": ["AI", "Medicine"],
+      "language": "English",
+      "videoId": "1z5rwWr5tlI",
+      "type": "Lecture",
+      "tags": ["AI", "Biomedical Imaging", "Computer Vision", "Medicine", "Multi-Modal"]
+    },
+    {
+      "id": "lecture-list-6",
+      "title": "Nuclear Medicine Imaging",
+      "provider": "HanQTV",
+      "instructor": "Jae Sung Lee",
+      "category": ["AI", "Medicine"],
+      "language": "Korean",
+      "videoId": "n7y0HBR3cFQ",
+      "type": "Lecture",
+      "tags": ["AI", "Biomedical Imaging", "Computer Vision", "Medicine", "Multi-Modal"]
+    },
+    {
+      "id": "lecture-list-7",
+      "title": "Deep Learning for Computer Vision",
+      "provider": "Michigan Online",
+      "instructor": "EECS 498-007 / 598-005",
+      "category": ["AI"],
+      "language": "English",
+      "videoId": "dJYGatp4SvA",
+      "playlistId": "PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r&index=1",
+      "type": "Playlist",
+      "tags": ["AI","Computer Vision"]
     }
   ]
 }
