@@ -265,50 +265,12 @@ h1 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 20px;
 }
-.platform-links{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:14px;
-    flex-wrap:nowrap;
-    overflow-x:auto;
-    padding:8px 0;
-    scrollbar-width:none;
-}
-.platform-links::-webkit-scrollbar{display:none;}
-
-.platform-links a{
-    flex:0 0 auto;
-    display:inline-flex;
-    align-items:center;
-    gap:.5rem;
-
-    padding:12px 20px;
-
-    background:#fff;
-    border:1px solid #e8e3f5;
-    border-radius:999px;
-
-    color:#2f2f3a;
-    text-decoration:none;
-    font-weight:600;
-
-    box-shadow:0 4px 14px rgba(0,0,0,.06);
-
-    transition:all .2s ease;
-}
-
-.platform-links a:hover{
-    background:#8a6bb7;
-    color:#fff;
-    border-color:#8a6bb7;
-    box-shadow:0 10px 24px rgba(138,107,183,.22);
-    transform:translateY(-2px);
-}
-
-.platform-links .arrow{
-    color:inherit;
-}
+.platform-section{display:block;text-align:center}
+.platform-intro{margin:0 0 1.5rem;font-size:1.15rem}
+.platform-links{display:flex;align-items:center;justify-content:center;gap:12px;overflow-x:auto;padding:8px 0;scrollbar-width:none}
+.platform-links::-webkit-scrollbar{display:none}
+.platform-links a{flex:0 0 auto;padding:12px 18px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--text);box-shadow:0 4px 14px rgba(61,44,76,.08);font-weight:700;text-decoration:none;white-space:nowrap;transition:.2s}
+.platform-links a:hover{transform:translateY(-2px);border-color:var(--accent);background:var(--accent-soft);color:var(--accent-deep)}
 .lecture-card {
   min-width: 0;
   overflow: hidden;
