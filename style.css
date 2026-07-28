@@ -272,6 +272,42 @@ h1 {
     background:#faf8ff;
     border:1px solid #ece5f7;
 }
+.platform-links{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:center;
+    align-items:center;
+    gap:14px;
+    overflow-x:auto;
+    padding:4px;
+    scrollbar-width:none;
+}
+.platform-links::-webkit-scrollbar{display:none;}
+
+.platform-links a{
+    flex:0 0 auto;
+    display:flex;
+    align-items:center;
+    gap:.45rem;
+    padding:.8rem 1.1rem;
+    border:1px solid #ece5f7;
+    border-radius:999px;
+    background:#fff;
+    color:#333;
+    text-decoration:none;
+    font-weight:600;
+    white-space:nowrap;
+    transition:.2s;
+    box-shadow:0 4px 12px rgba(0,0,0,.04);
+}
+
+.platform-links a:hover{
+    transform:translateY(-2px);
+    border-color:#8a6bb7;
+    box-shadow:0 10px 24px rgba(138,107,183,.15);
+}
+
+.platform-links .arrow{color:#8a6bb7;}
 .lecture-card {
   min-width: 0;
   overflow: hidden;
