@@ -283,7 +283,7 @@ function createLectureCard(lecture) {
   sourceLink.textContent =
     lecture.type === "Playlist"
       ? "See Playlist ↗"
-      : "See Original ↗";
+      : "Watch Lecture ↗";
 
   playButton.setAttribute(
     "aria-label",
