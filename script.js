@@ -129,7 +129,7 @@ function renderLectures() {
 
   elements.sectionTitle.textContent = state.favoritesOnly
     ? "Saved Lectures"
-    : state.category === "All"
+    : state.category === "all"
       ? "Every Lecture"
       : state.category;
 
@@ -208,7 +208,7 @@ function getVisibleLectures() {
     ].join(" "));
 
     return (
-      (state.category === "All" || lecture.category === state.category) &&
+      (state.category === "all" || lecture.category === state.category) &&
       (state.language === "all" || lecture.language === state.language) &&
       (!state.favoritesOnly || state.favorites.has(lecture.id)) &&
       (!query || searchableText.includes(query))
