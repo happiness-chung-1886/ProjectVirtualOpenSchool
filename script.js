@@ -300,6 +300,12 @@ function createLectureCard(lecture) {
 function getVisibleLectures() {
   const query = normalizeText(state.search);
 
+  const collator = new Intl.Collator("en", {
+    sensitivity: "base",
+    numeric: true,
+    ignorePunctuation: true
+  });
+
   return state.lectures
     .filter((lecture) => {
       const searchableText = normalizeText([
@@ -311,32 +317,36 @@ function getVisibleLectures() {
         ...lecture.tags
       ].join(" "));
 
+      const matchesCategory =
+        state.category === "all" ||
+        lecture.category.includes(state.category);
+
+      const matchesLanguage =
+        state.language === "all" ||
+        lecture.language === state.language;
+
+      const matchesType =
+        state.type === "all" ||
+        lecture.type === state.type;
+
+      const matchesSearch =
+        !query ||
+        searchableText.includes(query);
+
       return (
-        (
-          state.category === "all" ||
-          lecture.category.includes(state.category)
-        ) &&
-        (
-          state.language === "all" ||
-          lecture.language === state.language
-        ) &&
-        (
-          state.type === "all" ||
-          lecture.type === state.type
-        ) &&
-        (
-          !query ||
-          searchableText.includes(query)
-        )
+        matchesCategory &&
+        matchesLanguage &&
+        matchesType &&
+        matchesSearch
       );
     })
-    .sort((a, b) =>
-      a.title.localeCompare(b.title, "en", {
-        sensitivity: "base",
-        numeric: true
-      })
-    );
-    }
+    .sort((a, b) => {
+      return collator.compare(
+        a.title.trim(),
+        b.title.trim()
+      );
+    });
+}
 
 function openVideoModal(lecture) {
   const iframe = document.createElement("iframe");
@@ -405,9 +415,7 @@ function updateStatistics() {
 
 function validateLectures(items) {
   if (!Array.isArray(items)) {
-    throw new TypeError(
-      "lectures must be an array."
-    );
+    throw new TypeError("lectures must be an array.");
   }
 
   return items
@@ -419,28 +427,39 @@ function validateLectures(items) {
       item.category &&
       item.videoId
     )
-    .map((item) => ({
-      id: String(item.id),
-      title: String(item.title),
-      provider: String(item.provider),
-      instructor: String(item.instructor || ""),
-      category: Array.isArray(item.category)
-        ? item.category.map(String)
-        : [String(item.category)],
-      level: String(item.level || "Beginner"),
-      language: String(item.language || "English"),
-      videoId: String(item.videoId),
-      playlistId: String(item.playlistId || ""),
-      type: String(
-        item.type ||
-        (item.playlistId ? "Playlist" : "Lecture")
-      ),
-      tags: Array.isArray(item.tags)
-        ? item.tags.map(String)
-        : [],
-      featured: Number(item.featured || 0),
-      addedAt: String(item.addedAt || "")
-    }));
+    .map((item) => {
+      const categories = Array.isArray(item.category)
+        ? item.category
+        : String(item.category).split(",");
+
+      return {
+        id: String(item.id),
+        title: String(item.title).trim(),
+        provider: String(item.provider).trim(),
+        instructor: String(item.instructor || "").trim(),
+
+        category: categories
+          .map((category) => String(category).trim())
+          .filter(Boolean),
+
+        level: String(item.level || "Beginner").trim(),
+        language: String(item.language || "English").trim(),
+        videoId: String(item.videoId).trim(),
+        playlistId: String(item.playlistId || "").trim(),
+
+        type: String(
+          item.type ||
+          (item.playlistId ? "Playlist" : "Lecture")
+        ).trim(),
+
+        tags: Array.isArray(item.tags)
+          ? item.tags.map((tag) => String(tag).trim())
+          : [],
+
+        featured: Number(item.featured || 0),
+        addedAt: String(item.addedAt || "")
+      };
+    });
 }
 
 function createPill(text) {
