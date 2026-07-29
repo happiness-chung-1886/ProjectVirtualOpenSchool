@@ -284,6 +284,18 @@
       "playlistId": "PLW_xDnYtBZJkLD5rXCvLw44ZeSD3BKqFf",
       "type": "Playlist",
       "tags": ["AI", "Robotics"]
+    },
+    {
+      "id": "lecture-list-25",
+      "title": "Introduction to Computer Vision",
+      "provider": "Korea University",
+      "instructor": "Gyeongsik Moon",
+      "category": ["AI"],
+      "language": "English",
+      "videoId": "wj-LdU92Wv8",
+      "playlistId": "PLW_xDnYtBZJn7cRa7SthQQsXM9s77xrh2",
+      "type": "Playlist",
+      "tags": ["AI", "Computer Vision"]
     }
   ]
 }
