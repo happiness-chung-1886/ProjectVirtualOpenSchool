@@ -307,6 +307,29 @@
       "videoId": "BlQZRITsRY4",
       "type": "Lecture",
       "tags": ["AI", "Natural Language Processing"]
+    },
+    {
+      "id": "lecture-list-27",
+      "title": "Justice: What's The Right Thing To Do?",
+      "provider": "Harvard University",
+      "instructor": "Michael Sandel",
+      "category": ["Philosophy", "Ethics"],
+      "language": "English",
+      "videoId": "kBdfcR-8hEY",
+      "playlistId": "PL30C13C91CFFEFEA6",
+      "type": "Playlist",
+      "tags": ["Philosophy"]
+    },
+    {
+      "id": "lecture-list-28",
+      "title": "Justice: What's The Right Thing To Do?",
+      "provider": "Université de Montréal & Mila",
+      "instructor": "Yoshua Bengio",
+      "category": ["Philosophy", "Ethics"],
+      "language": "English",
+      "videoId": "dmwkyOWhB8c",
+      "type": "Lecture",
+      "tags": ["AI"]
     }
   ]
 }
