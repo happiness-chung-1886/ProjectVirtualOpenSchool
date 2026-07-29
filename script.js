@@ -425,7 +425,6 @@ function validateLectures(items) {
           .map((category) => String(category).trim())
           .filter(Boolean),
 
-        level: String(item.level || "Beginner").trim(),
         language: String(item.language || "English").trim(),
         videoId: String(item.videoId).trim(),
         playlistId: String(item.playlistId || "").trim(),
