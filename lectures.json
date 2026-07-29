@@ -325,7 +325,7 @@
       "title": "Scientist AI: disentangling agency and causal understanding",
       "provider": "Université de Montréal & Mila",
       "instructor": "Yoshua Bengio",
-      "category": ["Philosophy", "Ethics"],
+      "category": ["AI"],
       "language": "English",
       "videoId": "dmwkyOWhB8c",
       "type": "Lecture",
@@ -334,7 +334,7 @@
     {
       "id": "lecture-list-29",
       "title": "A Deep Learning Journey",
-      "provider": "NeurIPS",
+      "provider": "NeurIPS 2022",
       "instructor": "Yoshua Bengio",
       "category": ["AI"],
       "language": "English",
@@ -361,6 +361,28 @@
       "category": ["AI"],
       "language": "English",
       "videoId": "zFIaT1ZIqqs",
+      "type": "Lecture",
+      "tags": ["AI"]
+    },
+    {
+      "id": "lecture-list-32",
+      "title": "The Godfather of AI: We’re Facing an Imminent Catastrophic Risk",
+      "provider": "Jon Hernandez AI",
+      "instructor": "Yoshua Bengio",
+      "category": ["AI", "Ethics"],
+      "language": "English",
+      "videoId": "_-CuF1likvw",
+      "type": "Lecture",
+      "tags": ["AI"]
+    },
+    {
+      "id": "lecture-list-33",
+      "title": "The future we're building -- and boring",
+      "provider": "TED",
+      "instructor": "Elon Musk",
+      "category": ["AI", "Philosophy", "Ethics"],
+      "language": "English",
+      "videoId": "zIwLWfaAg-8",
       "type": "Lecture",
       "tags": ["AI"]
     }
