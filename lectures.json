@@ -322,12 +322,45 @@
     },
     {
       "id": "lecture-list-28",
-      "title": "Justice: What's The Right Thing To Do?",
+      "title": "Scientist AI: disentangling agency and causal understanding",
       "provider": "Université de Montréal & Mila",
       "instructor": "Yoshua Bengio",
       "category": ["Philosophy", "Ethics"],
       "language": "English",
       "videoId": "dmwkyOWhB8c",
+      "type": "Lecture",
+      "tags": ["AI"]
+    },
+    {
+      "id": "lecture-list-29",
+      "title": "A Deep Learning Journey",
+      "provider": "NeurIPS",
+      "instructor": "Yoshua Bengio",
+      "category": ["AI"],
+      "language": "English",
+      "videoId": "Xg3lc-vOJQw",
+      "type": "Lecture",
+      "tags": ["AI"]
+    },
+    {
+      "id": "lecture-list-30",
+      "title": "From Deep Learning of Disentangled Representations to Higher-level Cognition",
+      "provider": "Microsoft Research",
+      "instructor": "Yoshua Bengio",
+      "category": ["AI"],
+      "language": "English",
+      "videoId": "Yr1mOzC93xs",
+      "type": "Lecture",
+      "tags": ["AI"]
+    },
+    {
+      "id": "lecture-list-31",
+      "title": "Machine Learning for Covid-19 Risk Awareness from Contact Tracing",
+      "provider": "Max Planck Institute for Intelligent Systems",
+      "instructor": "Yoshua Bengio",
+      "category": ["AI"],
+      "language": "English",
+      "videoId": "zFIaT1ZIqqs",
       "type": "Lecture",
       "tags": ["AI"]
     }
