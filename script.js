@@ -252,7 +252,6 @@ function createLectureCard(lecture) {
   metaRow.append(createPill(category));
   });
 
-  metaRow.append(createPill(lecture.level));
   metaRow.append(createPill(lecture.language));
 
   title.textContent = lecture.title;
