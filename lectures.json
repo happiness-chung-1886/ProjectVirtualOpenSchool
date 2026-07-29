@@ -296,6 +296,17 @@
       "playlistId": "PLW_xDnYtBZJn7cRa7SthQQsXM9s77xrh2",
       "type": "Playlist",
       "tags": ["AI", "Computer Vision"]
+    },
+    {
+      "id": "lecture-list-26",
+      "title": "Alexa & Friends with Gokhan Tur",
+      "provider": "Amazone Science",
+      "instructor": "Gokhan Tur",
+      "category": ["AI"],
+      "language": "English",
+      "videoId": "BlQZRITsRY4",
+      "type": "Lecture",
+      "tags": ["AI", "Natural Language Processing"]
     }
   ]
 }
