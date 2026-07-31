@@ -450,9 +450,12 @@ function validateLectures(items) {
 
         contentCategory: Array.isArray(item.contentCategory)
           ? item.contentCategory
-              .map(v => String(v).trim())
+              .map((category) => String(category).trim())
               .filter(Boolean)
-          : [String(item.contentCategory || "").trim()],
+          : String(item.contentCategory || "")
+              .split(",")
+              .map((category) => category.trim())
+              .filter(Boolean),
 
         language: String(item.language || "English").trim(),
         videoId: String(item.videoId).trim(),
