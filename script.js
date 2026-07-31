@@ -152,11 +152,14 @@ function renderCategories() {
   if (!elements.categoryTabs) return;
 
   const categories = [
-  "all",
   ...new Set(
     state.lectures.flatMap((lecture) => lecture.category)
   )
-];
+  ].sort((a, b) => a.localeCompare(b, "en", {
+    sensitivity: "base"
+  }));
+
+  categories.unshift("all");
 
   elements.categoryTabs.replaceChildren();
 
