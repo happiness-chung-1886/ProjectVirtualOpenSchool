@@ -160,6 +160,7 @@ function renderCategories() {
   }));
 
   categories.unshift("all");
+  console.log("Sorted categories:", categories);
 
   elements.categoryTabs.replaceChildren();
 
