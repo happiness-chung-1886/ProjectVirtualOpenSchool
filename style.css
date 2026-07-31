@@ -189,11 +189,11 @@ h1 {
 }
 .notice p { margin: 0; }
 
-.controls {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  flex-wrap: nowrap;   /* 줄바꿈 금지 */
+.controls{
+    display:flex;
+    align-items:center;
+    gap:16px;
+    margin-bottom:18px;
 }
 .controls input,
 .controls select {
@@ -212,7 +212,24 @@ h1 {
   border-color: var(--accent);
   box-shadow: 0 0 0 3px var(--accent-soft);
 }
-.search-box { position: relative; }
+.search-box { 
+  position: relative; 
+  flex:1;
+}
+.controls label{
+    width:180px;
+    flex-shrink:0;
+}
+.academic-fields{
+    margin-bottom:24px;
+}
+
+.filter-title{
+    font-size:15px;
+    font-weight:700;
+    color:#555;
+    margin-bottom:12px;
+}
 .search-box > span:not(.sr-only) {
   position: absolute;
   left: 15px;
@@ -221,10 +238,29 @@ h1 {
   color: var(--muted);
   transform: translateY(-50%);
 }
+.category-button{
+    border:1px solid #d6c7ef;
+    border-radius:999px;
+    background:white;
+    padding:10px 20px;
+    cursor:pointer;
 
+    transition:.2s;
+}
+
+.category-button:hover{
+    background:#f6f0ff;
+}
+
+.category-button.active{
+    background:#efe5ff;
+    border-color:#9a73d7;
+    color:#5c3f94;
+}
 .category-tabs {
-  display: flex;
-  gap: 8px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
   overflow-x: auto;
   padding: 4px 0 16px;
   scrollbar-width: thin;

@@ -180,10 +180,6 @@ function renderCategories() {
     button.addEventListener("click", () => {
       state.category = category;
 
-      if (elements.categoryFilter) {
-        elements.categoryFilter.value = category;
-      }
-
       renderCategories();
       renderLectures();
     });
@@ -405,7 +401,6 @@ function resetFilters() {
 
   elements.searchInput.value = "";
   elements.languageFilter.value = "all";
-  elements.categoryFilter.value = "all";
   state.contentCategory = "all";
 
   if (elements.contentFilter) {
