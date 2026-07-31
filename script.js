@@ -262,6 +262,10 @@ function createLectureCard(lecture) {
   metaRow.append(createPill(category));
   });
 
+  lecture.contentCategory.forEach((category) => {
+    metaRow.append(createPill(category));
+  });
+
   metaRow.append(createPill(lecture.language));
 
   title.textContent = lecture.title;
@@ -334,7 +338,7 @@ function getVisibleLectures() {
 
       const matchesContentCategory =
         state.contentCategory === "all" ||
-        lecture.contentCategory === state.contentCategory;
+        lecture.contentCategory.join(" ").includes(state.contentCategory)
 
       const matchesType =
         state.type === "all" ||
@@ -444,9 +448,11 @@ function validateLectures(items) {
           .map((category) => String(category).trim())
           .filter(Boolean),
 
-        contentCategory: String(
-          item.contentCategory || "Academic Course"
-          ).trim(),
+        contentCategory: Array.isArray(item.contentCategory)
+          ? item.contentCategory
+              .map(v => String(v).trim())
+              .filter(Boolean)
+          : [String(item.contentCategory || "").trim()],
 
         language: String(item.language || "English").trim(),
         videoId: String(item.videoId).trim(),
