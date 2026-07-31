@@ -225,10 +225,17 @@ h1 {
 }
 
 .filter-title{
-    font-size:15px;
-    font-weight:700;
-    color:#555;
-    margin-bottom:12px;
+    margin: 28px 0 14px;
+
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+
+    text-transform: uppercase;
+
+    color: #8a6bb7;
+
+    font-family: inherit;
 }
 .search-box > span:not(.sr-only) {
   position: absolute;
