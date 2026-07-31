@@ -19,13 +19,13 @@
       "title": "Stanford Robotics Seminar",
       "provider": "Stanford Online",
       "instructor": "ENGR319 Team",
-      "category": ["Robotics", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "category": ["Robotics and Physical AI", "Computer Science and Engineering", "Electrical and Computer Engineering"],
       "contentCategory": ["Academic Course"],
       "language": "English",
       "videoId": "wfJpKjMwXpg",
       "playlistId": "PLoROMvodv4rNsMOMF1LG3ohsTqZVJVeVp",
       "type": "Playlist",
-      "tags": ["Robotics", "Automation"]
+      "tags": ["Robotics and Physical AI", "Automation"]
     },
     {
       "id": "lecture-list-2",
@@ -302,13 +302,13 @@
       "title": "Reinforcement Learning",
       "provider": "Korea University",
       "instructor": "Gyeongsik Moon",
-      "category": ["AI", "Computer Science and Engineering", "Electrical and Computer Engineering","Robotics"],
+      "category": ["AI", "Computer Science and Engineering", "Electrical and Computer Engineering","Robotics and Physical AI"],
       "contentCategory": ["Academic Course"],
       "language": "English",
       "videoId": "LW56buqat5M",
       "playlistId": "PLW_xDnYtBZJkLD5rXCvLw44ZeSD3BKqFf",
       "type": "Playlist",
-      "tags": ["AI", "Robotics"]
+      "tags": ["AI", "Robotics and Physical AI"]
     },
     {
       "id": "lecture-list-25",
@@ -449,7 +449,7 @@
       "title": "The LLM Revolution Is Over. The Physical AI Revolution Is Coming Fast",
       "provider": "Forbes",
       "instructor": "Yann LeCun",
-      "category": ["AI", "Robotics"],
+      "category": ["AI", "Robotics and Physical AI"],
       "contentCategory": ["Future Vision"],
       "language": "English",
       "videoId": "MWMe7yjPYpE",
