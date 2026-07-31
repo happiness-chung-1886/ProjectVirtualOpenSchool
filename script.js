@@ -7,7 +7,8 @@ const state = {
   category: "all",
   search: "",
   language: "all",
-  type: "all"
+  type: "all",
+  contentCategory: "all"
 };
 
 const elements = {
@@ -19,6 +20,7 @@ const elements = {
   categoryFilter: document.getElementById("categoryFilter"),
   typeFilter: document.getElementById("typeFilter"),
   categoryTabs: document.getElementById("categoryTabs"),
+  contentFilter: document.getElementById("contentFilter"),
   resetButton: document.getElementById("resetButton"),
   totalCount: document.getElementById("totalCount"),
   categoryCount: document.getElementById("categoryCount"),
@@ -104,6 +106,14 @@ function bindEvents() {
       state.type = event.target.value;
       renderLectures();
     }
+  );
+
+  elements.contentFilter?.addEventListener(
+  "change",
+  (event) => {
+    state.contentCategory = event.target.value;
+    renderLectures();
+  }
   );
 
   elements.resetButton?.addEventListener(
@@ -322,6 +332,10 @@ function getVisibleLectures() {
         state.language === "all" ||
         lecture.language === state.language;
 
+      const matchesContentCategory =
+        state.contentCategory === "all" ||
+        lecture.contentCategory === state.contentCategory;
+
       const matchesType =
         state.type === "all" ||
         lecture.type === state.type;
@@ -334,6 +348,7 @@ function getVisibleLectures() {
         matchesCategory &&
         matchesLanguage &&
         matchesType &&
+        matchesContentCategory &&
         matchesSearch
       );
     })
@@ -387,6 +402,11 @@ function resetFilters() {
   elements.searchInput.value = "";
   elements.languageFilter.value = "all";
   elements.categoryFilter.value = "all";
+  state.contentCategory = "all";
+
+  if (elements.contentFilter) {
+    elements.contentFilter.value = "all";
+  }
 
   if (elements.typeFilter) {
     elements.typeFilter.value = "all";
@@ -423,6 +443,10 @@ function validateLectures(items) {
         category: categories
           .map((category) => String(category).trim())
           .filter(Boolean),
+
+        contentCategory: String(
+          item.contentCategory || "Academic Course"
+          ).trim(),
 
         language: String(item.language || "English").trim(),
         videoId: String(item.videoId).trim(),
