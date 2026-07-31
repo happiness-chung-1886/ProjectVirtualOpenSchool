@@ -505,6 +505,19 @@
       "playlistId": "PLGhLSTqMIIk__XZZi1W3yYaxEGMSvdHbn",
       "type": "Playlist",
       "tags": ["Medicine"]
+    },
+    {
+      "id": "lecture-list-41",
+      "title": "Essence of linear algebra",
+      "provider": "3Blue1Brown",
+      "instructor": "3Blue1Brown",
+      "category": ["Math"],
+      "contentCategory": ["Academic Course"],
+      "language": "English",
+      "videoId": "fNk_zzaMoSs",
+      "playlistId": "PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+      "type": "Playlist",
+      "tags": ["Math"]
     }
   ]
 }
