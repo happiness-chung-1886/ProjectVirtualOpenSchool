@@ -34,12 +34,6 @@ const elements = {
   closeModalButton: document.getElementById("closeModalButton")
 };
 
-const relatedFieldsToggle =
-  fragment.querySelector(".related-fields-toggle");
-
-const relatedFields =
-  fragment.querySelector(".related-fields");
-
 initialize();
 
 async function initialize() {
@@ -211,6 +205,11 @@ function renderLectures() {
       lectures.length === 1 ? "lecture" : "lectures"
     }`;
 
+  lectures.forEach((lecture) => {
+    elements.lectureGrid.append(
+      createLectureCard(lecture)
+    );
+  });
 }
 
 function createLectureCard(lecture) {
@@ -244,6 +243,12 @@ function createLectureCard(lecture) {
   const sourceLink =
     fragment.querySelector(".source-link");
 
+  const relatedFieldsToggle =
+    fragment.querySelector(".related-fields-toggle");
+
+  const relatedFields =
+    fragment.querySelector(".related-fields");
+
   card.dataset.id = lecture.id;
 
   image.src = getThumbnailUrl(lecture.videoId);
@@ -259,10 +264,6 @@ function createLectureCard(lecture) {
     { once: true }
   );
 
-  lecture.category.forEach((category) => {
-  metaRow.append(createPill(category));
-  });
-
   lecture.contentCategory.forEach((category) => {
     metaRow.append(createPill(category));
   });
@@ -274,15 +275,14 @@ function createLectureCard(lecture) {
   });
 
   relatedFieldsToggle.addEventListener("click", () => {
-    const isOpen =
-      relatedFieldsToggle.getAttribute("aria-expanded") === "true";
+    const willOpen = relatedFields.hidden;
+
+    relatedFields.hidden = !willOpen;
 
     relatedFieldsToggle.setAttribute(
       "aria-expanded",
-      String(!isOpen)
+      String(willOpen)
     );
-
-    relatedFields.hidden = isOpen;
   });
 
   title.textContent = lecture.title;
