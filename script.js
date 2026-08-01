@@ -234,9 +234,6 @@ function createLectureCard(lecture) {
   const provider =
     fragment.querySelector(".provider");
 
-  const tagRow =
-    fragment.querySelector(".tag-row");
-
   const type =
     fragment.querySelector(".lecture-type");
 
@@ -290,16 +287,6 @@ function createLectureCard(lecture) {
   provider.textContent = lecture.instructor
     ? `${lecture.provider} · ${lecture.instructor}`
     : lecture.provider;
-
-  lecture.tags.forEach((tag) => {
-    const tagElement =
-      document.createElement("span");
-
-    tagElement.className = "tag";
-    tagElement.textContent = `#${tag}`;
-
-    tagRow.append(tagElement);
-  });
 
   type.textContent =
     lecture.type === "Playlist"

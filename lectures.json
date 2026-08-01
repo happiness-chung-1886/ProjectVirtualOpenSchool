@@ -11,8 +11,7 @@
       "language": "English",
       "videoId": "2fq9wYslV0A",
       "playlistId": "PLoROMvodv4rOmsNzYBMe0gJY2XS8AQg16",
-      "type": "Playlist",
-      "tags": ["Deep Learning", "Computer Vision"]
+      "type": "Playlist"
     },
     {
       "id": "lecture-list-1",
@@ -24,8 +23,7 @@
       "language": "English",
       "videoId": "wfJpKjMwXpg",
       "playlistId": "PLoROMvodv4rNsMOMF1LG3ohsTqZVJVeVp",
-      "type": "Playlist",
-      "tags": ["Physical AI and Robotics", "Automation"]
+      "type": "Playlist"
     },
     {
       "id": "lecture-list-2",
@@ -36,8 +34,7 @@
       "contentCategory": ["Research Summary", "Future Vision"],
       "language": "Korean",
       "videoId": "vkTMO_vCp6o",
-      "type": "Lecture",
-      "tags": ["AI", "Multi-Modal","Computer Vision"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-3",
@@ -48,8 +45,7 @@
       "contentCategory": ["Research Summary", "Future Vision"],
       "language": "Korean",
       "videoId": "Tjz5M75Uw5w",
-      "type": "Lecture",
-      "tags": ["AI", "Multi-Modal","Computer Vision"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-4",
@@ -61,8 +57,7 @@
       "language": "English",
       "videoId": "Pqe01ExObKg",
       "playlistId": "PLH5cPNdVOAvs",
-      "type": "Playlist",
-      "tags": ["AI", "Biomedical Imaging", "Computer Vision", "Medicine", "Multi-Modal"]
+      "type": "Playlist"
     },
     {
       "id": "lecture-list-5",
@@ -73,8 +68,7 @@
       "contentCategory": ["Research Summary", "Future Vision"],
       "language": "English",
       "videoId": "1z5rwWr5tlI",
-      "type": "Lecture",
-      "tags": ["AI", "Biomedical Imaging", "Computer Vision", "Medicine", "Multi-Modal"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-6",
@@ -85,8 +79,7 @@
       "contentCategory": ["Research Summary", "Future Vision"],
       "language": "Korean",
       "videoId": "n7y0HBR3cFQ",
-      "type": "Lecture",
-      "tags": ["AI", "Biomedical Imaging", "Computer Vision", "Medicine", "Multi-Modal"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-7",
@@ -98,8 +91,7 @@
       "language": "English",
       "videoId": "dJYGatp4SvA",
       "playlistId": "PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r&index",
-      "type": "Playlist",
-      "tags": ["AI","Computer Vision"]
+      "type": "Playlist"
     },
     {
       "id": "lecture-list-8",
@@ -110,8 +102,7 @@
       "contentCategory": ["Research Summary", "Future Vision"],
       "language": "English",
       "videoId": "Ii3-T5aV8sY",
-      "type": "Lecture",
-      "tags": ["AI","Natural Language Processing"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-9",
@@ -122,8 +113,7 @@
       "contentCategory": ["Research Summary", "Future Vision"],
       "language": "English",
       "videoId": "V9JZBDVhd3g",
-      "type": "Lecture",
-      "tags": ["AI","Natural Language Processing"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-10",
@@ -134,8 +124,7 @@
       "contentCategory": ["Research Summary", "Future Vision"],
       "language": "English",
       "videoId": "PHDEao8zrWw",
-      "type": "Lecture",
-      "tags": ["AI","Natural Language Processing"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-11",
@@ -146,8 +135,7 @@
       "contentCategory": ["Research Summary", "Future Vision"],
       "language": "English",
       "videoId": "wEQz6RU4Wac",
-      "type": "Lecture",
-      "tags": ["AI","Natural Language Processing"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-12",
@@ -158,8 +146,7 @@
       "contentCategory": ["Research Summary", "Future Vision"],
       "language": "English",
       "videoId": "C5Xgzrsrq1Y",
-      "type": "Lecture",
-      "tags": ["AI","Natural Language Processing"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-13",
@@ -170,8 +157,7 @@
       "contentCategory": ["Research Summary", "Future Vision"],
       "language": "English",
       "videoId": "_qpa99XSHak",
-      "type": "Lecture",
-      "tags": ["AI","Natural Language Processing"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-14",
@@ -183,8 +169,7 @@
       "language": "English",
       "videoId": "_NLHFoVNlbg",
       "playlistId": "PLoROMvodv4rNRRGdS0rBbXOUGA0wjdh1X",
-      "type": "Lecture",
-      "tags": ["AI"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-15",
@@ -195,8 +180,7 @@
       "contentCategory": ["Future Vision"],
       "language": "English",
       "videoId": "l05zysavPpY",
-      "type": "Lecture",
-      "tags": ["AI"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-16",
@@ -207,8 +191,7 @@
       "contentCategory": ["Future Vision"],
       "language": "English",
       "videoId": "qe9QSCF-d88",
-      "type": "Lecture",
-      "tags": ["AI"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-17",
@@ -219,8 +202,7 @@
       "contentCategory": ["Research Summary", "Future Vision"],
       "language": "English",
       "videoId": "JkNyEUne8iA",
-      "type": "Lecture",
-      "tags": ["AI"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-18",
@@ -232,8 +214,7 @@
       "language": "English",
       "videoId": "72Xj8k5WQX4",
       "playlistId": "PL80I41oVxglK--is17UhoHVosOLFEJzKQ",
-      "type": "Lecture",
-      "tags": ["AI"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-19",
@@ -245,8 +226,7 @@
       "language": "English",
       "videoId": "FW5gFiJb-ig",
       "playlistId": "PL80I41oVxglKcAHllsU0txr3OuTTaWX2v&index=5",
-      "type": "Lecture",
-      "tags": ["AI"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-20",
@@ -257,8 +237,7 @@
       "contentCategory": ["Research Summary", "Future Vision"],
       "language": "English",
       "videoId": "7SLNpqLj_mk",
-      "type": "Lecture",
-      "tags": ["AI", "Biomedical Imaging", "Computer Vision", "Medicine", "Multi-Modal"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-21",
@@ -269,8 +248,7 @@
       "contentCategory": ["Research Summary", "Future Vision"],
       "language": "English",
       "videoId": "IA60YAP4UIU",
-      "type": "Lecture",
-      "tags": ["AI", "Biomedical Imaging", "Computer Vision", "Medicine", "Multi-Modal"]
+      "type": "Lecture"
 
     },
     {
@@ -282,8 +260,7 @@
       "contentCategory": ["Research Summary", "Future Vision"],
       "language": "English",
       "videoId": "9vyL0tYjeP0",
-      "type": "Lecture",
-      "tags": ["AI", "Biomedical Imaging", "Computer Vision", "Medicine", "Multi-Modal"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-23",
@@ -294,8 +271,7 @@
       "contentCategory": ["Research Summary", "Future Vision"],
       "language": "Korean",
       "videoId": "ehxfe2l1RtQ",
-      "type": "Lecture",
-      "tags": ["AI", "Biomedical Imaging", "Computer Vision", "Medicine", "Multi-Modal"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-24",
@@ -307,8 +283,7 @@
       "language": "English",
       "videoId": "LW56buqat5M",
       "playlistId": "PLW_xDnYtBZJkLD5rXCvLw44ZeSD3BKqFf",
-      "type": "Playlist",
-      "tags": ["AI", "Physical AI and Robotics"]
+      "type": "Playlist"
     },
     {
       "id": "lecture-list-25",
@@ -320,8 +295,7 @@
       "language": "English",
       "videoId": "wj-LdU92Wv8",
       "playlistId": "PLW_xDnYtBZJn7cRa7SthQQsXM9s77xrh2",
-      "type": "Playlist",
-      "tags": ["AI", "Computer Vision"]
+      "type": "Playlist"
     },
     {
       "id": "lecture-list-26",
@@ -332,8 +306,7 @@
       "contentCategory": ["Research Summary", "Future Vision"],
       "language": "English",
       "videoId": "BlQZRITsRY4",
-      "type": "Lecture",
-      "tags": ["AI", "Natural Language Processing"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-27",
@@ -345,8 +318,7 @@
       "language": "English",
       "videoId": "kBdfcR-8hEY",
       "playlistId": "PL30C13C91CFFEFEA6",
-      "type": "Playlist",
-      "tags": ["Philosophy"]
+      "type": "Playlist"
     },
     {
       "id": "lecture-list-28",
@@ -357,8 +329,7 @@
       "contentCategory": ["Research Summary", "Future Vision"],
       "language": "English",
       "videoId": "dmwkyOWhB8c",
-      "type": "Lecture",
-      "tags": ["AI"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-29",
@@ -369,8 +340,7 @@
       "contentCategory": ["Research Summary", "Future Vision"],
       "language": "English",
       "videoId": "Xg3lc-vOJQw",
-      "type": "Lecture",
-      "tags": ["AI"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-30",
@@ -381,8 +351,7 @@
       "contentCategory": ["Research Summary", "Future Vision"],
       "language": "English",
       "videoId": "Yr1mOzC93xs",
-      "type": "Lecture",
-      "tags": ["AI"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-31",
@@ -393,8 +362,7 @@
       "contentCategory": ["Research Summary", "Future Vision"],
       "language": "English",
       "videoId": "zFIaT1ZIqqs",
-      "type": "Lecture",
-      "tags": ["AI"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-32",
@@ -405,8 +373,7 @@
       "contentCategory": ["Future Vision"],
       "language": "English",
       "videoId": "_-CuF1likvw",
-      "type": "Lecture",
-      "tags": ["AI"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-33",
@@ -417,8 +384,7 @@
       "contentCategory": ["Future Vision"],
       "language": "English",
       "videoId": "zIwLWfaAg-8",
-      "type": "Lecture",
-      "tags": ["AI"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-34",
@@ -429,8 +395,7 @@
       "contentCategory": ["Research Summary", "Future Vision"],
       "language": "English",
       "videoId": "iDpPFAXmcZc",
-      "type": "Lecture",
-      "tags": ["AI"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-35",
@@ -441,8 +406,7 @@
       "contentCategory": ["Research Summary", "Future Vision"],
       "language": "English",
       "videoId": "q5f6xzB1Knc",
-      "type": "Lecture",
-      "tags": ["AI"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-36",
@@ -453,8 +417,7 @@
       "contentCategory": ["Future Vision"],
       "language": "English",
       "videoId": "MWMe7yjPYpE",
-      "type": "Lecture",
-      "tags": ["AI"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-37",
@@ -465,8 +428,7 @@
       "contentCategory": ["Research Summary", "Future Vision"],
       "language": "English",
       "videoId": "yUmDRxV0krg",
-      "type": "Lecture",
-      "tags": ["AI"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-38",
@@ -478,8 +440,7 @@
       "language": "English",
       "videoId": "FbFfVnKrk78",
       "playlistId": "PL3n8cHP87ijCCF4J27hHEKKrvub0yVBPa",
-      "type": "Playlist",
-      "tags": ["Medicine"]
+      "type": "Playlist"
     },
     {
       "id": "lecture-list-39",
@@ -490,8 +451,7 @@
       "contentCategory": ["Academic Course"],
       "language": "English",
       "videoId": "MlRsfpb40pA",
-      "type": "Lecture",
-      "tags": ["Medicine"]
+      "type": "Lecture"
     },
     {
       "id": "lecture-list-40",
@@ -503,8 +463,7 @@
       "language": "English",
       "videoId": "RYWamzzbeSc",
       "playlistId": "PLGhLSTqMIIk__XZZi1W3yYaxEGMSvdHbn",
-      "type": "Playlist",
-      "tags": ["Medicine"]
+      "type": "Playlist"
     },
     {
       "id": "lecture-list-41",
@@ -516,8 +475,7 @@
       "language": "English",
       "videoId": "fNk_zzaMoSs",
       "playlistId": "PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
-      "type": "Playlist",
-      "tags": ["Math"]
+      "type": "Playlist"
     }
   ]
 }
