@@ -418,9 +418,11 @@ h1 {
   justify-content: space-between;
   align-items: center;
   gap: 12px;
-  margin-top: 16px;
-  padding-top: 14px;
-  border-top: 1px solid var(--line);
+
+  margin-top: 18px;
+  padding-top: 0;
+
+  border-top: none;
 }
 .lecture-type { color: var(--muted); font-size: 0.8rem; }
 .source-link {
