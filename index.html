@@ -54,7 +54,8 @@
       </p>
     </section>
 
-      <h3 class="filter-title">Academic Fields</h3>
+      
+      <h3 class="filter-title">Related Academic Fields</h3>
       <nav id="categoryTabs" class="category-tabs" aria-label="Academic Fields"></nav>
 
     <section class="controls" aria-label="Search and Filter">
@@ -183,12 +184,32 @@
       </div>
       <div class="card-body">
         <div class="meta-row"></div>
+
         <h3 class="lecture-title"></h3>
         <p class="provider"></p>
+
+        <button
+          class="related-fields-toggle"
+          type="button"
+          aria-expanded="false"
+        >
+          Related Academic Fields
+          <span class="toggle-arrow" aria-hidden="true">⌄</span>
+        </button>
+
+        <div class="related-fields" hidden></div>
+
         <div class="tag-row"></div>
+
         <div class="card-footer">
           <span class="lecture-type"></span>
-          <a class="source-link" target="_blank" rel="noopener noreferrer">See Original↗</a>
+          <a
+            class="source-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            See Original ↗
+          </a>
         </div>
       </div>
     </article>

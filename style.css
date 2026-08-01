@@ -516,6 +516,55 @@ footer p { margin: 0; }
 .video-frame iframe { width: 100%; height: 100%; border: 0; display: block; }
 .modal-footer { justify-content: flex-end; }
 
+.related-fields-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+
+  margin-top: 14px;
+  padding: 10px 0;
+
+  cursor: pointer;
+  border: 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+
+  background: transparent;
+  color: var(--accent-deep);
+
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.related-fields-toggle:hover {
+  color: var(--accent);
+}
+
+.toggle-arrow {
+  display: inline-block;
+  font-size: 1.1rem;
+  transition: transform 0.2s ease;
+}
+
+.related-fields-toggle[aria-expanded="true"] .toggle-arrow {
+  transform: rotate(180deg);
+}
+
+.related-fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  padding: 12px 0 2px;
+}
+
+.related-fields[hidden] {
+  display: none;
+}
+
 @media (max-width: 920px) {
   .hero { grid-template-columns: 1fr; min-height: auto; }
   .controls { grid-template-columns: 1fr 1fr; }
