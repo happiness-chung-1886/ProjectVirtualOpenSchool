@@ -488,6 +488,18 @@
       "videoId": "e4jow5O3JT8",
       "playlistId": "PLF8B1bJgOQK67xkgYz_Xtx0ShjcqfdXwE&index",
       "type": "Playlist"
+    },
+    {
+      "id": "lecture-list-43",
+      "title": "Introduction to Unity",
+      "provider": "Yeahlowflicker",
+      "instructor": "2022 Unity Beginner's Course Team",
+      "category": ["Extended Reality"],
+      "contentCategory": ["Academic Course"],
+      "language": "English",
+      "videoId": "VaJseHy_iI4",
+      "playlistId": "PLS7jk2aVN8G4b-uuf-M0_fhQjL7KEmQw",
+      "type": "Playlist"
     }
   ]
 }
