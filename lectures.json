@@ -476,6 +476,18 @@
       "videoId": "fNk_zzaMoSs",
       "playlistId": "PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
       "type": "Playlist"
+    },
+    {
+      "id": "lecture-list-42",
+      "title": "Introduction to Robotics",
+      "provider": "Princeton University",
+      "instructor": "MAE 345/549 Team",
+      "category": ["Physical AI and Robotics", "Computer Science and Engineering", "Electrical and Computer Engineering", "Mechanical Engineering", "Aerospace Engineering"],
+      "contentCategory": ["Academic Course"],
+      "language": "English",
+      "videoId": "e4jow5O3JT8",
+      "playlistId": "PLF8B1bJgOQK67xkgYz_Xtx0ShjcqfdXwE&index",
+      "type": "Playlist"
     }
   ]
 }
