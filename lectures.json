@@ -517,10 +517,21 @@
       "title": "Google's Demis Hassabis, Anthropic's Dario Amodei Debate the World After AGI",
       "provider": "DRM News",
       "instructor": "Dario Amodei & Demis Hassabis",
-      "category": ["AI"],
+      "category": ["AI", "Philosophy"],
       "contentCategory": ["Future Vision"],
       "language": "English",
       "videoId": "02YLwsCKUww",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-46",
+      "title": "The next 50 years: humanity, AI, power",
+      "provider": "Yuval Noah Harari ",
+      "instructor": "Yuval Noah Harari",
+      "category": ["AI", "Philosophy"],
+      "contentCategory": ["Future Vision"],
+      "language": "English",
+      "videoId": "_V_ed5fuexA",
       "type": "Lecture"
     }
   ]
