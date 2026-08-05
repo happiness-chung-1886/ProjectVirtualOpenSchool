@@ -500,6 +500,17 @@
       "videoId": "VaJseHy_iI4",
       "playlistId": "PLS7jk2aVN8G4b-uuf-M0_fhQjL7KEmQw",
       "type": "Playlist"
+    },
+    {
+      "id": "lecture-list-44",
+      "title": "AI's Next Job Is Curing Disease",
+      "provider": "The Generalist",
+      "instructor": "Eric Nguyen, Radical Numerics",
+      "category": ["AI", "Bioengineering", "Bioinformatics", "Biomeedical Engineering", "Computer Science and Engineering", "Electrical and Computer Engineering", "Natural Language Processing"],
+      "contentCategory": ["Future Vision"],
+      "language": "English",
+      "videoId": "BTu1c1ItlVQ",
+      "type": "Lecture"
     }
   ]
 }
