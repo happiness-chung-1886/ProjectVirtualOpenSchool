@@ -511,6 +511,17 @@
       "language": "English",
       "videoId": "BTu1c1ItlVQ",
       "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-45",
+      "title": "Google's Demis Hassabis, Anthropic's Dario Amodei Debate the World After AGI",
+      "provider": "DRM News",
+      "instructor": "Dario Amodei & Demis Hassabis",
+      "category": ["AI"],
+      "contentCategory": ["Future Vision"],
+      "language": "English",
+      "videoId": "02YLwsCKUww",
+      "type": "Lecture"
     }
   ]
 }
