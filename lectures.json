@@ -526,12 +526,45 @@
     {
       "id": "lecture-list-46",
       "title": "The next 50 years: humanity, AI, power",
-      "provider": "Yuval Noah Harari ",
+      "provider": "Yuval Noah Harari",
       "instructor": "Yuval Noah Harari",
       "category": ["AI", "Philosophy"],
       "contentCategory": ["Future Vision"],
       "language": "English",
       "videoId": "_V_ed5fuexA",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-47",
+      "title": "The full-length interview with Elon Musk",
+      "provider": "The Economist",
+      "instructor": "Elon Musk",
+      "category": ["AI", "Philosophy"],
+      "contentCategory": ["Future Vision"],
+      "language": "English",
+      "videoId": "XuoqKYxDHVc",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-48",
+      "title": "Framework for PET/CT",
+      "provider": "Radiology Frameworks",
+      "instructor": "Radiology Frameworks",
+      "category": ["Medicine", "Bioengineering", "Bioinformatics", "Biomeedical Engineering", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Academic Course"],
+      "language": "English",
+      "videoId": "OtQ-OSRMBQM",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-49",
+      "title": "PET Scan animation",
+      "provider": "ANSTO",
+      "instructor": "ANSTO",
+      "category": ["Medicine", "Bioengineering", "Bioinformatics", "Biomeedical Engineering", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Academic Course"],
+      "language": "English",
+      "videoId": "oySvkmezdo0",
       "type": "Lecture"
     }
   ]
