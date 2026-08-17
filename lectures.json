@@ -788,6 +788,17 @@
       "videoId": "aJ_1bKkTMpo",
       "playlistId": "PLSY68sWRmr-MkXD15Iva38xFexHjc2QYl",
       "type": "Playlist"
+    },
+    {
+      "id": "lecture-list-71",
+      "title": "[서울대 AI 콜로퀴움] 성격 및 지식 기반 대화 시스템(김건희 교수)",
+      "provider": "서울대학교 AI연구원 (AIIS)",
+      "instructor": "Gunhee Kim",
+      "category": ["AI", "Natural Language Processing", "Computer Science and Engineering"],
+      "contentCategory": ["Research Summary", "Future Vision"],
+      "language": "Korean",
+      "videoId": "zXrUGtw5_1o",
+      "type": "Lecture"
     }
   ]
 }
