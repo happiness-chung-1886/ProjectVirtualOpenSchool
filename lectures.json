@@ -566,6 +566,17 @@
       "language": "English",
       "videoId": "oySvkmezdo0",
       "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-50",
+      "title": "Ready for PET: Clinical Value of Cardiac PET",
+      "provider": "American Society of Nuclear Cardiology (ASNC)",
+      "instructor": "Dennis A. Calnon",
+      "category": ["Medicine"],
+      "contentCategory": ["Academic Course"],
+      "language": "English",
+      "videoId": "QU6Y-NGyW04",
+      "type": "Lecture"
     }
   ]
 }
