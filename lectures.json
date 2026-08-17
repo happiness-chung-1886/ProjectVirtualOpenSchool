@@ -753,6 +753,40 @@
       "language": "English",
       "videoId": "XEw0QG2Lwgs",
       "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-68",
+      "title": "딥러닝기반 초고해상도 영상복원 AI세계대회 우승, 서울대 이경무교수팀",
+      "provider": "Kyoung Mu Lee",
+      "instructor": "Kyoung Mu Lee",
+      "category": ["AI", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Research Summary", "Future Vision"],
+      "language": "Korean",
+      "videoId": "pJkFNEzNX1s",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-69",
+      "title": "컴퓨터비전 (2025 봄)",
+      "provider": "Joonseok Lee",
+      "instructor": "Joonseok Lee",
+      "category": ["AI", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Research Summary", "Future Vision"],
+      "language": "Korean",
+      "videoId": "QtzaSZdmUrg",
+      "playlistId": "PL0E_1UqNACXBhqjwBzFQ88YXWotXrKRG-",
+      "type": "Playlist"
+    },
+    {
+      "id": "lecture-list-70",
+      "title": "[Vision AI Workshop] 서울대 이경무 교수 - Meta-Learning for Computer Vision",
+      "provider": "Kyoung Mu Lee",
+      "instructor": "Kyoung Mu Lee",
+      "category": ["AI", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Research Summary", "Future Vision"],
+      "language": "Korean",
+      "videoId": "aJ_1bKkTMpo",
+      "type": "Lecture"
     }
   ]
 }
