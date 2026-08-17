@@ -616,7 +616,7 @@
       "title": "Interview with Prof. Kyoung Mu Lee",
       "provider": "IEEE CTSocTV",
       "instructor": "Kyoung Mu Lee",
-      "category": ["Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "category": ["AI", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering"],
       "contentCategory": ["Future Vision"],
       "language": "English",
       "videoId": "--SwkTLUHtI",
@@ -697,6 +697,61 @@
       "contentCategory": ["Academic Course"],
       "language": "Korean",
       "videoId": "GBpnsFfLt2Q",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-63",
+      "title": "2025년도 AI연구원 선도혁신연구센터 킥오프미팅(의료영상 AI 혁신 연구센터)",
+      "provider": "서울대학교AI연구원 (AIIS)",
+      "instructor": "Jae Sung Lee",
+      "category": ["Medicine", "Bioengineering", "Bioinformatics", "Biomeedical Engineering", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering", "Physics"],
+      "contentCategory": ["Research Summary", "Future Vision"],
+      "language": "Korean",
+      "videoId": "VF9qSKRp6O8",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-64",
+      "title": "2024 인공지능 연구지원사업 선도혁신연구센터 킥오프 (의료영상 AI 선도·혁신 연구센터)",
+      "provider": "서울대학교AI연구원 (AIIS)",
+      "instructor": "Jae Sung Lee",
+      "category": ["Medicine", "Bioengineering", "Bioinformatics", "Biomeedical Engineering", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering", "Physics"],
+      "contentCategory": ["Research Summary", "Future Vision"],
+      "language": "Korean",
+      "videoId": "ogLWdaKE77k",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-65",
+      "title": "서울대학교 AI연구원 의료영상 AI 선도혁신 연구센터를 소개합니다.",
+      "provider": "서울대학교AI연구원 (AIIS)",
+      "instructor": "Jae Sung Lee",
+      "category": ["Medicine", "Bioengineering", "Bioinformatics", "Biomeedical Engineering", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering", "Physics"],
+      "contentCategory": ["Research Summary", "Future Vision"],
+      "language": "Korean",
+      "videoId": "8nSZck17YSM",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-66",
+      "title": "[CVPR 2021] Exemplar-Based Open-Set Panoptic Segmentation Network",
+      "provider": "Seoul National University CVLab",
+      "instructor": "Jaedong Hwang",
+      "category": ["AI", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Research Summary", "Future Vision"],
+      "language": "English",
+      "videoId": "SFvJUO9iFk0",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-67",
+      "title": "Multimodal Representation Learning for Text Driven soft Masks (서울대 한보형교수 연구실)",
+      "provider": "Seoul National University CVLab",
+      "instructor": "Jaeyoo Park",
+      "category": ["AI", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Research Summary", "Future Vision"],
+      "language": "English",
+      "videoId": "XEw0QG2Lwgs",
       "type": "Lecture"
     }
   ]
