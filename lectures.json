@@ -779,14 +779,15 @@
     },
     {
       "id": "lecture-list-70",
-      "title": "[Vision AI Workshop] 서울대 이경무 교수 - Meta-Learning for Computer Vision",
+      "title": "Vision AI Workshop",
       "provider": "서울대학교 AI연구원 (AIIS)",
-      "instructor": "Kyoung Mu Lee",
+      "instructor": "Vision AI Workshop Team",
       "category": ["AI", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering"],
       "contentCategory": ["Research Summary", "Future Vision"],
       "language": "Korean",
       "videoId": "aJ_1bKkTMpo",
-      "type": "Lecture"
+      "playlistId": "PLSY68sWRmr-MkXD15Iva38xFexHjc2QYl",
+      "type": "Playlist"
     }
   ]
 }
