@@ -859,11 +859,22 @@
       "id": "lecture-list-77",
       "title": "The Map of Quantum Computing - Quantum Computing Explained",
       "provider": "「Domain of Science",
-      "instructor": "IBM",
+      "instructor": "Qiskit at IBM",
       "category": ["Quantum Computing", "Computer Science and Engineering", "Electrical and Computer Engineering"],
       "contentCategory": ["Academic Course"],
       "language": "English",
       "videoId": "-UlxHPIEVqA",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-78",
+      "title": "Quantum Machine Learning Explained",
+      "provider": "IBM",
+      "instructor": "Abby Mitchell",
+      "category": ["AI","Quantum Computing", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Academic Course"],
+      "language": "English",
+      "videoId": "NqHKr9CGWJ0",
       "type": "Lecture"
     }
   ]
