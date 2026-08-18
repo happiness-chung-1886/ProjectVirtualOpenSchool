@@ -799,6 +799,39 @@
       "language": "Korean",
       "videoId": "zXrUGtw5_1o",
       "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-72",
+      "title": "Memory Networks and Their Applications 1 of 3: Gunhee Kim",
+      "provider": "「AI創新研究中心專案計畫」推動辦公室",
+      "instructor": "Gunhee Kim",
+      "category": ["AI", "Audio Processing", "Natural Language Processing", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Academic Course"],
+      "language": "English",
+      "videoId": "_F1hQaYIVI0",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-73",
+      "title": "Memory Networks and Their Applications 2 of 3: Prof Gunhee Kim",
+      "provider": "「AI創新研究中心專案計畫」推動辦公室",
+      "instructor": "Gunhee Kim",
+      "category": ["AI", "Audio Processing", "Natural Language Processing", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Academic Course"],
+      "language": "English",
+      "videoId": "fTmup65Gnsk",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-74",
+      "title": "Memory Networks and Their Applications 3 of 3: Prof Gunhee Kim",
+      "provider": "「AI創新研究中心專案計畫」推動辦公室",
+      "instructor": "Gunhee Kim",
+      "category": ["AI", "Audio Processing", "Natural Language Processing", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Academic Course"],
+      "language": "English",
+      "videoId": "zzvC5m3qv0Y",
+      "type": "Lecture"
     }
   ]
 }
