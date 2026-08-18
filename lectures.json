@@ -876,6 +876,28 @@
       "language": "English",
       "videoId": "NqHKr9CGWJ0",
       "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-79",
+      "title": "How AI Will Change Quantum Computing | NVIDIA AI Podcast Ep. 294",
+      "provider": "NVIDIA and NVIDIA Developer",
+      "instructor": "Nic Harrigan",
+      "category": ["AI", "Quantum Computing", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Future Vision"],
+      "language": "English",
+      "videoId": "OFEY5-52ru0",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-80",
+      "title": "Is Fine-Tuning Still Needed? LLMs, RAG, & LoRA",
+      "provider": "IBM Technology",
+      "instructor": "Martin Keen",
+      "category": ["AI", "Natural Language Processing", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Future Vision"],
+      "language": "English",
+      "videoId": "-W2JdSl1v48",
+      "type": "Lecture"
     }
   ]
 }
