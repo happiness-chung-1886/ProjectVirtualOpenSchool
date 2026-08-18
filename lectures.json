@@ -832,6 +832,39 @@
       "language": "English",
       "videoId": "zzvC5m3qv0Y",
       "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-75",
+      "title": "[인샤이트] 말버릇도 따라 하는 AI, 어디까지 '사람처럼' 말할 수 있을까?",
+      "provider": "「서울대학교 Seoul National University",
+      "instructor": "Gunhee Kim",
+      "category": ["AI", "Audio Processing", "Natural Language Processing", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Future Vision"],
+      "language": "Korean",
+      "videoId": "1YRwCc8wp2o",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-76",
+      "title": "A beginner's guide to quantum computing | Shohini Ghos",
+      "provider": "「TED",
+      "instructor": "Shohini Ghos",
+      "category": ["Quantum Computing", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Academic Course"],
+      "language": "English",
+      "videoId": "QuR969uMICM&t=87s",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-77",
+      "title": "The Map of Quantum Computing - Quantum Computing Explained",
+      "provider": "「Domain of Science",
+      "instructor": "IBM",
+      "category": ["Quantum Computing", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Academic Course"],
+      "language": "English",
+      "videoId": "-UlxHPIEVqA",
+      "type": "Lecture"
     }
   ]
 }
