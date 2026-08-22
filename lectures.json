@@ -946,6 +946,18 @@
       "videoId": "7vi4t4SkK5E",
       "playlistId": "PLbkiZxYouIu7e8CNkfbMisZk62QVTcLAx",
       "type": "Playlist"
+    },
+    {
+      "id": "lecture-list-85",
+      "title": "Radiology Physics Course",
+      "provider": "Radiology Tutorials",
+      "instructor": "Radiology Physics Course Team",
+      "category": ["Physics", "Medicine", "Bioengineering", "Bioinformatics", "Biomeedical Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Academic Course"],
+      "language": "English",
+      "videoId": "3esx20XioMc",
+      "playlistId": "PLWfaNqiSdtzXdcwPwLtdUb_QnzfU5UIh-",
+      "type": "Playlist"
     }
   ]
 }
