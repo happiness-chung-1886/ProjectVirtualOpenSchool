@@ -934,6 +934,18 @@
       "videoId": "hBZKiMse2Yg",
       "playlistId": "PL0FpKQ-EgTObAsB7r1bGbdBdOkt5f1W-z",
       "type": "Playlist"
+    },
+    {
+      "id": "lecture-list-84",
+      "title": "MR Academy: Diffusion, Perfusion, fMRI",
+      "provider": "ISMRM MR Academy",
+      "instructor": "ISMRM MR Academy Team",
+      "category": ["Physics", "Medicine", "Bioengineering", "Bioinformatics", "Biomeedical Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Academic Course"],
+      "language": "English",
+      "videoId": "7vi4t4SkK5E",
+      "playlistId": "PLbkiZxYouIu7e8CNkfbMisZk62QVTcLAx",
+      "type": "Playlist"
     }
   ]
 }
