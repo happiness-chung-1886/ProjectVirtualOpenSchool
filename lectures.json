@@ -898,6 +898,42 @@
       "language": "English",
       "videoId": "-W2JdSl1v48",
       "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-81",
+      "title": "MRI Physics EXPLAINED | MRI Physics EXPLAINED Lectures",
+      "provider": "MRI Physics EXPLAINED",
+      "instructor": "MRI Physics EXPLAINED Team",
+      "category": ["Physics", "Medicine", "Bioengineering", "Bioinformatics", "Biomeedical Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Academic Course"],
+      "language": "English",
+      "videoId": "2S3LiDkfl-0",
+      "playlistId": "PLSANNgDr6l7prVZdFx24IxN72x2KwFJhb",
+      "type": "Playlist"
+    },
+    {
+      "id": "lecture-list-82",
+      "title": "MRI Physics - Stanford Rad 229 Course",
+      "provider": "Stanford-RAD229",
+      "instructor": "Stanford-RAD229 Team",
+      "category": ["Physics", "Medicine", "Bioengineering", "Bioinformatics", "Biomeedical Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Academic Course"],
+      "language": "English",
+      "videoId": "zflijqAcE50",
+      "playlistId": "PL_f1QfEzcY41iJ_R0w2027igbVvIYOZR4",
+      "type": "Playlist"
+    },
+    {
+      "id": "lecture-list-83",
+      "title": "Nuclear Medicine Physics Lecture Series",
+      "provider": "Molecular Imaging & Therapy",
+      "instructor": "Arman Rahmim & Carlos Uribe",
+      "category": ["Physics", "Medicine", "Bioengineering", "Bioinformatics", "Biomeedical Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Academic Course"],
+      "language": "English",
+      "videoId": "hBZKiMse2Yg",
+      "playlistId": "PL0FpKQ-EgTObAsB7r1bGbdBdOkt5f1W-z",
+      "type": "Playlist"
     }
   ]
 }
