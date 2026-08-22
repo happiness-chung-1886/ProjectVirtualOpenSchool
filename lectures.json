@@ -958,6 +958,18 @@
       "videoId": "3esx20XioMc",
       "playlistId": "PLWfaNqiSdtzXdcwPwLtdUb_QnzfU5UIh-",
       "type": "Playlist"
+    },
+    {
+      "id": "lecture-list-86",
+      "title": "MIT 6.S184: Flow Matching and Diffusion Models",
+      "provider": "Peter Holderrieth",
+      "instructor": "Peter Holderrieth",
+      "category": ["AI", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Academic Course"],
+      "language": "English",
+      "videoId": "9eJQQVrUUoI",
+      "playlistId": "PL57nT7tSGAAXwjhDYcxEycx5W7YoSrZyt&index",
+      "type": "Playlist"
     }
   ]
 }
