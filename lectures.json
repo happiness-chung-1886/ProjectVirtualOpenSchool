@@ -970,6 +970,62 @@
       "videoId": "9eJQQVrUUoI",
       "playlistId": "PL57nT7tSGAAXwjhDYcxEycx5W7YoSrZyt&index",
       "type": "Playlist"
+    },
+    {
+      "id": "lecture-list-86",
+      "title": "MIT 6.S184: Flow Matching and Diffusion Models",
+      "provider": "Peter Holderrieth",
+      "instructor": "Peter Holderrieth",
+      "category": ["AI", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Academic Course"],
+      "language": "English",
+      "videoId": "9eJQQVrUUoI",
+      "playlistId": "PL57nT7tSGAAXwjhDYcxEycx5W7YoSrZyt&index",
+      "type": "Playlist"
+    },
+    {
+      "id": "lecture-list-87",
+      "title": "ECR 2020 AI COVID19 Dorin Comaniciu, Siemens Healthineers",
+      "provider": "Dorin Comaniciu",
+      "instructor": "Dorin Comaniciu",
+      "category": ["AI", "Bioengineering","Bioinformatics","Biomeedical Engineering", "Medicine", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Research Summary", "Future Vision"],
+      "language": "English",
+      "videoId": "AYvRVY8E-CA",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-88",
+      "title": "KDD 2020 AI Healthcare Comaniciu, Siemens Healthineers",
+      "provider": "Dorin Comaniciu",
+      "instructor": "Dorin Comaniciu",
+      "category": ["AI", "Bioengineering","Bioinformatics","Biomeedical Engineering", "Medicine", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Research Summary", "Future Vision"],
+      "language": "English",
+      "videoId": "8EOAGd20mGo",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-89",
+      "title": "Simon R Cherry, Ph.D.: “Total-Body Positron Emission Tomography: Imaging the Brain and Beyond”",
+      "provider": "UCLA Brain Mapping Center",
+      "instructor": "Simon R Cherry",
+      "category": ["Bioengineering","Bioinformatics","Biomeedical Engineering", "Medicine", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Research Summary", "Future Vision"],
+      "language": "English",
+      "videoId": "lO-4-zom9_M",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-90",
+      "title": "Australian National Total Body PET: Webinar 8 | A conversation with Simon Cherry and Ramsey Badawi",
+      "provider": "National Imaging Facility",
+      "instructor": "Simon R Cherry, Ramsey Badawi, Steven Meikle, Alex Burton,",
+      "category": ["Bioengineering","Bioinformatics","Biomeedical Engineering", "Medicine", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Research Summary", "Future Vision"],
+      "language": "English",
+      "videoId": "GZFer3um-BE",
+      "type": "Lecture"
     }
   ]
 }
