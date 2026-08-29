@@ -1036,6 +1036,17 @@
       "language": "English",
       "videoId": "Ck_32QhhURQ",
       "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-93",
+      "title": "2025년도 서울대학교 AI연구원 인공지능 연구지원사업 선도혁신연구센터 결과발표회(의료영상 AI 혁신 연구센터)",
+      "provider": "서울대학교AI연구원 (AIIS)",
+      "instructor": "Jae Sung Lee",
+      "category": ["Medicine", "Radiology", "Nuclear Medicine", "Bioengineering", "Bioinformatics", "Biomeedical Engineering", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering", "Physics"],
+      "contentCategory": ["Research Summary", "Future Vision"],
+      "language": "Korean",
+      "videoId": "POYt8vlMGEM",
+      "type": "Lecture"
     }
   ]
 }
