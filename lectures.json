@@ -1047,6 +1047,17 @@
       "language": "Korean",
       "videoId": "POYt8vlMGEM",
       "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-94",
+      "title": "Whole Genome Deep Learning (배상윤, 이은지 학생)",
+      "provider": "SNU Connectome Lab",
+      "instructor": "Sangyoon Bae & Eunji Lee",
+      "category": ["Psychology", "Computational Neuroscience", "AI", "Genomics"],
+      "contentCategory": ["Research Summary", "Future Vision"],
+      "language": "Korean",
+      "videoId": "POYt8vlMGEM",
+      "type": "Lecture"
     }
   ]
 }
