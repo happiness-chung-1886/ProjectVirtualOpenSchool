@@ -1025,6 +1025,17 @@
       "language": "Korean",
       "videoId": "vyQwH-zw668",
       "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-92",
+      "title": "fMRI foundation model via 4d Swin transformers | Trends in NeuroAI",
+      "provider": "Paul Scotti",
+      "instructor": "Junbeom Kwon",
+      "category": ["Psychology", "Neuroscience", "AI", "Medicine"],
+      "contentCategory": ["Research Summary", "Future Vision"],
+      "language": "English",
+      "videoId": "Ck_32QhhURQ",
+      "type": "Lecture"
     }
   ]
 }
