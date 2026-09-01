@@ -1058,6 +1058,17 @@
       "language": "Korean",
       "videoId": "lTXtOPiuek8",
       "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-95",
+      "title": "D-Wave’s Brutal Reality: Why The Quantum Future Isn’t What You Think",
+      "provider": "Rick Orford - Trading Stocks and Options For All",
+      "instructor": "Alan Baratz",
+      "category": ["Quantum Computing", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Philosophy", "Future Vision"],
+      "language": "English",
+      "videoId": "0DIycOzFYDk",
+      "type": "Lecture"
     }
   ]
 }
