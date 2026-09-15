@@ -1069,6 +1069,28 @@
       "language": "English",
       "videoId": "0DIycOzFYDk",
       "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-96",
+      "title": "How to read all of research (a lit review)",
+      "provider": "D. Livingston McPherson",
+      "instructor": "D. Livingston McPherson",
+      "category": ["AI", "Computer Science and Engineering"],
+      "contentCategory": ["Academic Course"],
+      "language": "English",
+      "videoId": "",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-97",
+      "title": "PySERA Tutorial: Python Library for Handcrafted and Deep Radiomics Feature Extraction",
+      "provider": "Molecular Imaging & Therapy",
+      "instructor": "Molecular Imaging & Therapy Team",
+      "category": ["Medicine", "Radiology", "Nuclear Medicine", "Bioengineering", "Bioinformatics", "Biomeedical Engineering", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering", "Physics"],
+      "contentCategory": ["Academic Course"],
+      "language": "English",
+      "videoId": "ThI5RJyJg6s",
+      "type": "Lecture"
     }
   ]
 }
