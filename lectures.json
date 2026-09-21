@@ -1091,6 +1091,17 @@
       "language": "English",
       "videoId": "ThI5RJyJg6s",
       "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-98",
+      "title": "Life in Voxels | Podcast Episode 1 | From Conceptualization to Prototyping of PET Systems",
+      "provider": "Life in Voxels",
+      "instructor": "Nikolaos A. Karakatsanis, Ezzat Elmoujarkach, ",
+      "category": ["Medicine", "Radiology", "Nuclear Medicine", "Bioengineering", "Bioinformatics", "Biomeedical Engineering", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering", "Physics"],
+      "contentCategory": ["Academic Course", "Research Summary", "Future Vision"],
+      "language": "English",
+      "videoId": "zj6mePs0yLM",
+      "type": "Lecture"
     }
   ]
 }
