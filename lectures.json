@@ -1096,11 +1096,33 @@
       "id": "lecture-list-98",
       "title": "Life in Voxels | Podcast Episode 1 | From Conceptualization to Prototyping of PET Systems",
       "provider": "Life in Voxels",
-      "instructor": "Nikolaos A. Karakatsanis, Ezzat Elmoujarkach, ",
+      "instructor": "Nikolaos A. Karakatsanis, Ezzat Elmoujarkach",
       "category": ["Medicine", "Radiology", "Nuclear Medicine", "Bioengineering", "Bioinformatics", "Biomeedical Engineering", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering", "Physics"],
       "contentCategory": ["Academic Course", "Research Summary", "Future Vision"],
       "language": "English",
       "videoId": "zj6mePs0yLM",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-99",
+      "title": "[26.03.24] 울산의대 의공학 대학원 세미나: 2026-1 WA6756-01 바이오의료인공지능최신지견",
+      "provider": "MI2RL AMC",
+      "instructor": "Bohyung Han",
+      "category": ["AI", "Bioengineering", "Bioinformatics", "Biomeedical Engineering", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Academic Course", "Research Summary", "Future Vision"],
+      "language": "Korean",
+      "videoId": "Fy5jYuldIVg",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-100",
+      "title": "26.06.19 금요일에 과학터치(부산) - 인공지능과 우리의 미래",
+      "provider": "Bohyung Han",
+      "instructor": "NRF한국연구재단",
+      "category": ["AI", "Computer Vision", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Academic Course", "Research Summary", "Future Vision"],
+      "language": "Korean",
+      "videoId": "U-yI4HvuoQw",
       "type": "Lecture"
     }
   ]
