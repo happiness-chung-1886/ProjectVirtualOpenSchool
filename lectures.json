@@ -1124,6 +1124,39 @@
       "language": "Korean",
       "videoId": "U-yI4HvuoQw",
       "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-101",
+      "title": "Ramani Duraiswami, Towards AGI: Building, Benchmarking and Improving Large Audio-Language Models",
+      "provider": "Center for Language & Speech Processing(CLSP), JHU",
+      "instructor": "Ramani Duraiswami",
+      "category": ["AI", "Audio Processing", "Natural Language Processing", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Academic Course", "Research Summary", "Future Vision"],
+      "language": "English",
+      "videoId": "pppnwFbnTYs",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-102",
+      "title": "[camera] JSALT 2025 - Plenary Talk - R.Duraiswami: Differentiable Modeling for Machine Learning",
+      "provider": "Center for Language & Speech Processing(CLSP), JHU",
+      "instructor": "Ramani Duraiswami",
+      "category": ["AI", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Academic Course", "Research Summary", "Future Vision"],
+      "language": "English",
+      "videoId": "ITmxOGOXb9Y",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-103",
+      "title": "Ramani Duraiswami - 2019 Research Day",
+      "provider": "UMD CS",
+      "instructor": "Ramani Duraiswami",
+      "category": ["AI", "Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Academic Course", "Research Summary", "Future Vision"],
+      "language": "English",
+      "videoId": "5-0aKjJhU38",
+      "type": "Lecture"
     }
   ]
 }
