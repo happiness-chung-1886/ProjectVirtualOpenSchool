@@ -1168,6 +1168,28 @@
       "language": "English",
       "videoId": "ITxsc3mgqts",
       "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-105",
+      "title": "AMD Acquires Fei-Fei Li’s World Labs for $8.2 Billion",
+      "provider": "Bloomberg Originals",
+      "instructor": "Fei-Fei Li, Lisa Su",
+      "category": ["AI", "Computer Vision","Computer Science and Engineering", "Economy", "Electrical and Computer Engineering"],
+      "contentCategory": ["Future Vision", "Philosophy"],
+      "language": "English",
+      "videoId": "-BKzNOIF6-4",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-106",
+      "title": "With Spatial Intelligence, AI Will Understand the Real World | Fei-Fei Li | TED",
+      "provider": "TED",
+      "instructor": "Fei-Fei Li",
+      "category": ["AI", "Computer Vision","Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Academic Course", "Research Summary", "Future Vision"],
+      "language": "English",
+      "videoId": "y8NtMZ7VGmU",
+      "type": "Lecture"
     }
   ]
 }
