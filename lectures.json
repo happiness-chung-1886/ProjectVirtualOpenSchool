@@ -1190,6 +1190,39 @@
       "language": "English",
       "videoId": "y8NtMZ7VGmU",
       "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-107",
+      "title": "Why AI Is Incredibly Smart and Shockingly Stupid | Yejin Choi | TED",
+      "provider": "TED",
+      "instructor": "Yejin Choi",
+      "category": ["AI", "Computer Vision", "Natural Language Processing","Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Academic Course", "Research Summary", "Future Vision"],
+      "language": "English",
+      "videoId": "SvBR0OGT5VI",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-108",
+      "title": "How to Govern AI — Even If It’s Hard to Predict | Helen Toner | TED",
+      "provider": "TED",
+      "instructor": "Helen Toner",
+      "category": ["AI", "Computer Vision", "Natural Language Processing","Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Academic Course", "Research Summary", "Future Vision"],
+      "language": "English",
+      "videoId": "LUn8IjZKBPg",
+      "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-109",
+      "title": "How is AI transforming medicine? - A Question of Science with Brian Cox",
+      "provider": "The Francis Crick Institute",
+      "instructor": "Mihaela van der Schaar, Dr Indra Joshi, Lord Patrick Vallance, Prof Samra Turajlic",
+      "category": ["AI", "Medicine"],
+      "contentCategory": ["Academic Course", "Research Summary", "Future Vision"],
+      "language": "English",
+      "videoId": "pVDCjMS5vtQ",
+      "type": "Lecture"
     }
   ]
 }
