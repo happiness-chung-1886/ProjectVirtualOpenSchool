@@ -1157,6 +1157,17 @@
       "language": "English",
       "videoId": "5-0aKjJhU38",
       "type": "Lecture"
+    },
+    {
+      "id": "lecture-list-104",
+      "title": "What's Beyond ChatGPT? The 'Godmother of AI' Has a Plan | The Circuit",
+      "provider": "Bloomberg Originals",
+      "instructor": "Fei-Fei Li",
+      "category": ["AI", "Computer Vision" ,"Computer Science and Engineering", "Electrical and Computer Engineering"],
+      "contentCategory": ["Future Vision", "Philosophy"],
+      "language": "English",
+      "videoId": "ITxsc3mgqts",
+      "type": "Lecture"
     }
   ]
 }
